@@ -1,0 +1,24 @@
+import Footer18 from './Footer18';
+
+export { Footer18 as Footer1 };
+export { Footer18 as Footer2 };
+export { Footer18 as Footer3 };
+export { Footer18 as Footer4 };
+export { Footer18 as Footer5 };
+export { Footer18 as Footer6 };
+export { Footer18 as Footer7 };
+export { Footer18 as Footer8 };
+export { Footer18 as Footer9 };
+export { Footer18 as Footer10 };
+export { Footer18 as Footer11 };
+export { Footer18 as Footer12 };
+export { Footer18 as Footer13 };
+export { Footer18 as Footer14 };
+export { Footer18 as Footer15 };
+export { Footer18 as Footer16 };
+export { Footer18 as Footer17 };
+export { Footer18 as Footer18 };
+export { Footer18 as Footer19 };
+export { Footer18 as Footer20 };
+export { Footer18 as Footer21 };
+export { Footer18 as Footer22 };
