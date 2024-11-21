@@ -11,7 +11,7 @@ const Topbar = ({
             <i className="uil uil-location-pin-alt"></i>
           </div>
 
-          <address className="mb-0">Moonshine St. 14/05 Light City</address>
+          <address className="mb-0">Chandivli, Mumbai – 400072, Maharashtra India. </address>
         </div>
 
         <div className="d-flex flex-row align-items-center me-6 ms-auto">
@@ -19,7 +19,7 @@ const Topbar = ({
             <i className="uil uil-phone-volume"></i>
           </div>
 
-          <p className="mb-0">00 (123) 456 78 90</p>
+          <p className="mb-0">+91 9967578862</p>
         </div>
 
         <div className="d-flex flex-row align-items-center">
@@ -28,8 +28,8 @@ const Topbar = ({
           </div>
 
           <p className="mb-0">
-            <a href="mailto:sandbox@email.com" className="link-white hover">
-              sandbox@email.com
+            <a href="Vinit.Chauhan@my-vian.com" className="link-white hover">
+            Vinit.Chauhan@my-vian.com
             </a>
           </p>
         </div>

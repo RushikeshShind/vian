@@ -59,33 +59,26 @@ const Projects = () => {
             <div className="row mt-6">
               <div className="col-xl-10 mx-auto">
                 <div className="projects-tiles">
-                <h3 className="display-3 ls-sm mb-12 px-xl-15 text-center">
+                <h3 className="display-3 ls-sm mb-12 px-xl-15 text-justify">
                 OUR COMPETENCE
-                <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
-        width: "50%", /* Adjust line width */
-        margin: "1rem auto" /* Center and add spacing */
-      }}></div>
+                
           </h3>
           
-          <div className="col-md-15 mb-12">
+          <div className="col-md-15 mb-12 item-justify">
             <figure className="rounded">
-              <img src="/img/photos/table1.png" alt="description of the image" />
+              <img src="/img/photos/table1.png" alt="description of the image" style={{ maxWidth: '950px', height: 'auto' }} />
+              
             </figure>
           </div>
 
           <h3 className="display-3 ls-sm mb-10 px-xl-15 text-center">
           SERVICES WE OFFER
-                <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
-        width: "50%", /* Adjust line width */
-        margin: "1rem auto" /* Center and add spacing */
-      }}></div>
+                
           </h3>
           
           <div className="col-md-15">
             <figure className="rounded">
-              <img src="/img/docs/service.png" alt="description of the image" />
+              <img src="/img/docs/service.png" alt="description of the image" style={{ maxWidth: '950px', height: 'auto' }}/>
             </figure>
           </div>
                   

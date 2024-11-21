@@ -54,8 +54,8 @@ const Navbar = props => {
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Vian</h3>
-          <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-white" />
+          <h3 className="text-white   q fs-30 mb-0">Vian</h3>
+          <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-blue" />
         </div>
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">

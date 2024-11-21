@@ -315,7 +315,7 @@ const blogsNavigation = [{
 },
 {
   id: 5,
-  url: '/blog-5',
+  url: '/hvac',
   title: 'HVAC Systems'
 },
 {

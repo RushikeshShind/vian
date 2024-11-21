@@ -35,11 +35,14 @@ const Projects = () => {
       }
         <section className="section-frame overflow-hidden">
           <div className="wrapper bg-gray">
-            <div className="container py-13 py-md-17 text-center">
+          <div className="container py-13 py-md-17 text-center">
               <div className="row">
+              <div className="col-lg-10 col-xxl-8 mx-auto text-center">
+              <img src="/img/photos/mission.png" alt="Vision" className="mb-1"  style={{ maxWidth: '500px', height: 'auto' }} />
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1">Our Mission</h1>
-                  <h6 className="display-5 mb-26">To deliver exceptional turnkey solutions through a commitment to quality, innovation, and customer satisfaction.We strive to simplify complex projects by managing every phase with expertise and integrity, ensuring timelycompletion, cost-effectiveness, and seamless execution.</h6>
+                  <h1 className="display-1 mb-3">Our Mission</h1>
+                  <h6 className="display-5 mb-4">To deliver exceptional turnkey solutions through a commitment to quality, innovation, and customer satisfaction.We strive to simplify complex projects by managing every phase with expertise and integrity, ensuring timelycompletion, cost-effectiveness, and seamless execution.</h6>
+                </div>
                 </div>
               </div> 
             </div>

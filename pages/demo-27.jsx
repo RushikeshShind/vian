@@ -12,13 +12,14 @@ import { Process17 } from 'components/blocks/process';
 import { Services29 } from 'components/blocks/services';
 import PageProgress from 'components/common/PageProgress';
 import { Testimonial21 } from 'components/blocks/testimonial';
-
+import Topbar from 'components/elements/Topbar';
 const Demo27 = () => {
   
   return <Fragment>
       <PageProgress />
 
       {
+         <Topbar />
       /* ========== header ========== */
     }
       <header className="wrapper bg-light">
