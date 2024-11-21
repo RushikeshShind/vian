@@ -13,6 +13,7 @@ import { Services29 } from 'components/blocks/services';
 import PageProgress from 'components/common/PageProgress';
 import { Testimonial21 } from 'components/blocks/testimonial';
 import Topbar from 'components/elements/Topbar';
+import { Clients1 } from 'components/blocks/clients';
 const Demo27 = () => {
   
   return <Fragment>
@@ -75,8 +76,13 @@ const Demo27 = () => {
             {
             /* ========== faq section ========== */
           }
+           
             <FAQ7 />
           </div>
+          <h1 className="display-1 mb-1 text-center">Software Used</h1>
+            <div className="px-lg-5 mb-1 mb-md-1">
+              <Clients1 />
+            </div>
         </section>
       </main>
 

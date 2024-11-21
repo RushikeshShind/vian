@@ -55,38 +55,56 @@ const Projects = () => {
         /* ========== projects section ========== */
       }
         <section className="wrapper bg-light">
-          <div className="container py-14 py-md-16">
-            <div className="row mt-6">
-              <div className="col-xl-10 mx-auto">
-                <div className="projects-tiles">
-                <h3 className="display-3 ls-sm mb-12 px-xl-15 text-justify">
-                OUR COMPETENCE
+  <div className="container py-14 py-md-1">
+    <div className="row mt-6">
+      <div className="col-xl-10 mx-auto">
+        <div className="projects-tiles">
+          {/* Image and Content Side-by-Side */}
+          <div className="row align-items-center mb-15">
+            {/* Image Column */}
+            <div className="col-md-6">
+              <figure className="rounded">
+                <img
+                  src="/img/photos/table1.png"
+                  alt="Unidirectional Flow"
+                  style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+                />
+              </figure>
+            </div>
+            {/* Content Column */}
+            <div className="col-md-6">
+              <h3 className="display-15 ls-sm mb-4 text-justify">
+                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
                 
-          </h3>
-          
-          <div className="col-md-15 mb-12 item-justify">
-            <figure className="rounded">
-              <img src="/img/photos/table1.png" alt="description of the image" style={{ maxWidth: '950px', height: 'auto' }} />
-              
-            </figure>
-          </div>
-
-          <h3 className="display-3 ls-sm mb-10 px-xl-15 text-center">
-          SERVICES WE OFFER
-                
-          </h3>
-          
-          <div className="col-md-15">
-            <figure className="rounded">
-              <img src="/img/docs/service.png" alt="description of the image" style={{ maxWidth: '950px', height: 'auto' }}/>
-            </figure>
-          </div>
-                  
-                </div>
-              </div>
+              </h3>
             </div>
           </div>
-        </section>
+
+          {/* Repeat for Second Image and Content */}
+          <div className="row align-items-center mb-15">
+            {/* Image Column */}
+            <div className="col-md-8 order-md-2">
+              <figure className="rounded">
+                <img
+                  src="/img/docs/service.png"
+                  alt="Clean Room Example"
+                  style={{ maxWidth: "100%", height: "auto" }}
+                />
+              </figure>
+            </div>
+            {/* Content Column */}
+            <div className="col-md-6">
+              <h3 className="display-5 ls-sm mb-4 text-justify">
+                <strong>What we offer:</strong> <br />
+                
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
 
       {

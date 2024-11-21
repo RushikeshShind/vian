@@ -55,47 +55,73 @@ const Projects = () => {
         /* ========== projects section ========== */
       }
         <section className="wrapper bg-light">
-          <div className="container py-14 py-md-1">
-            <div className="row mt-6">
-              <div className="col-xl-10 mx-auto">
-                <div className="projects-tiles">
-                <h3 className="display-15 ls-sm mb-1 px-xl-1 text-center">
-                Unidirectional Flow (Laminar Air Flow): <br />• Air flow pattern: unidirectional; <br />• Velocity 90±20 FPM <br />
-• Equipment's are having cleanliness class ISO 5 / class 100 falls under this category. <br /> • Flow type – once through / recirculated .
-
-                <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
-        width: "50%", /* Adjust line width */
-        margin: "1rem auto" /* Center and add spacing */
-      }}></div>
-          </h3>
-          
-          <div className="col-md-1 mb-14  ">
-            <figure className="rounded">
-              <img src="/img/photos/123.png" alt="Centered Image" className="centered-image" />
-            </figure>
-          </div>
-
-          <h3 className="display-3 ls-sm mb-10 px-xl-15 text-center">
-          
-                <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
-        width: "50%", /* Adjust line width */
-        margin: "1rem auto" /* Center and add spacing */
-      }}></div>
-          </h3>
-          
-          <div className="col-md-5">
-            <figure className="rounded">
-             <img src="/img/photos/clean1.png" alt="description of the image"/>
-            </figure>
-          </div>
-                  
-                </div>
-              </div>
+  <div className="container py-14 py-md-1">
+    <div className="row mt-6">
+      <div className="col-xl-10 mx-auto">
+        <div className="projects-tiles">
+          {/* Image and Content Side-by-Side */}
+          <div className="row align-items-center mb-15">
+            {/* Image Column */}
+            <div className="col-md-6">
+              <figure className="rounded">
+                <img
+                  src="/img/photos/123.png"
+                  alt="Unidirectional Flow"
+                  style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+                />
+              </figure>
+            </div>
+            {/* Content Column */}
+            <div className="col-md-6">
+              <h3 className="display-15 ls-sm mb-4 text-justify">
+                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
+                • Air flow pattern: unidirectional; <br />
+                • Velocity 90±20 FPM <br />
+                • Equipment's are having cleanliness class ISO 5 / class 100 falls under this category. <br />
+                • Flow type – once through / recirculated.
+              </h3>
             </div>
           </div>
-        </section>
+
+          {/* Repeat for Second Image and Content */}
+          <div className="row align-items-center mb-15">
+            {/* Image Column */}
+            <div className="col-md-6 order-md-2">
+              <figure className="rounded">
+                <img
+                  src="/img/photos/clean1.png"
+                  alt="Clean Room Example"
+                  style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+                />
+              </figure>
+            </div>
+            {/* Content Column */}
+            <div className="col-md-6 order-md-1">
+                    <h3 className="display-15 ls-sm mb-4 text-justify">
+                      <strong>Cleanroom Equipment Pressure</strong> <br />
+                      Pressure : 
+                      In medical settings, a positive pressure room (protective
+                      environment) allows staff to keep vulnerable patients safe
+                      from infections and disease. In contrast, a negative
+                      pressure room uses lower air pressure to allow outside air
+                      into the segregated environment. <br />
+                      1. Positive Pressure. <br />
+                      2. Negative Pressure . <br />
+                      Differential Pressure Gauge :
+                      Pressure Gauge is used in Equipment's to check the
+                      Pressure Drop across HEPA with respect to Ambient .
+                      Range -0-50 MM WC / 500 Pascal .
+                      1. Magnehelic <br />
+                      2. Photohelic <br />
+                      3. Digihelic <br />
+                    </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
 
       {

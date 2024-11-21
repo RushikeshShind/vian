@@ -310,7 +310,7 @@ const blogsNavigation = [{
 },
 {
   id: 4,
-  url: '/blog-4',
+  url: '/Projectmgm',
   title: 'Project Management'
 },
 {
@@ -320,12 +320,12 @@ const blogsNavigation = [{
 },
 {
   id: 6,
-  url: '/blog-6',
+  url: '/cleanequ',
   title: 'Cleanroom Equipments'
 },
 {
   id: 7,
-  url: '/blog-7',
+  url: '/airflow',
   title: 'Airflow Modelling'
 },
  {

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Fragment } from 'react'; // -------- custom hook -------- //
 
 import useLightBox from 'hooks/useLightBox'; // -------- custom component -------- //
-
+import { Clients1 } from 'components/blocks/clients';
 import { Navbar } from 'components/blocks/navbar';
 import { Footer8 } from 'components/blocks/footer';
 import PageProgress from 'components/common/PageProgress';
@@ -33,12 +33,12 @@ const ProjectDetails = () => {
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div className="post-header">
                 <div className="post-category text-line">
-                  <NextLink title="HVAC" href="#" className="hover" />
+                  <NextLink title="Airflow " href="#" className="hover" />
                 </div>
 
-                <h1 className="display-1 mb-5">HVAC System</h1>
+                <h1 className="display-1 mb-5">Airflow Modelling</h1>
                 <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">
-                  DESIGN BUILD MANUFACTURE <br /> - HVAC design expertise
+                 
                 </p>
               </div>
             </div>
@@ -55,55 +55,47 @@ const ProjectDetails = () => {
       <div className="col-xl-10 mx-auto">
         <div className="projects-tiles">
           {/* Image and Content Side-by-Side */}
-          <div className="row align-items-center mb-1">
+          <div className="row align-items-center mb-10">
             {/* Image Column */}
             <div className="col-md-6">
               <figure className="rounded">
                 <img
-                  src="/img/photos/picture3.png"
+                  src="/img/photos/picture9.png"
                   alt="Unidirectional Flow"
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                 />
-              </figure>
-            </div>
-            {/* Content Column */}
-            <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-2 text-justify">
-                <strong>Conceptual design : </strong> <br />
-                Transforming your URS into a functional and detailed design.
-              </h3>
-            </div>
-          </div>
-
-          {/* Repeat for Second Image and Content */}
-          <div className="row align-items-center mb-5">
-            {/* Image Column */}
-            <div className="col-md-6 order-md-2">
-              <figure className="rounded">
-                <img
-                  src="/img/photos/picture4.png"
+                 <img
+                  src="/img/photos/picture8.png"
                   alt="Clean Room Example"
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                 />
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6 order-md-1">
-              <h3 className="display-15 ls-sm mb-4 text-justify">
-                <strong>Implementation:</strong> <br />
-                Our team will balance operational
-requirements, workflow optimization,
-running costs and building regulations
+            <div className="col-md-6">
+              <h3 className="display-15 ls-sm mb-10 text-justify">
+                <strong> </strong> <br />
+                Used to demonstrate air-flow patterns to check <br /> 
+                contamination risk, leakage rates, oxygen requirements, exhaustvolume and speed air inflow <br /> 
+                are calculated and balanced to ensure exact requirements are delivered calculationsand modelling to determine the quantity of Fan Filter Units (FFU) required in a GMP facility
               </h3>
             </div>
           </div>
+
+          
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
+{
+            /* ========== our clients section ========== */
+          }
+          <h1 className="display-1 mb-5 text-center">Software Used</h1>
+            <div className="px-lg-5 mb-1 mb-md-1">
+              <Clients1 />
+            </div>
       {
         /* ========== navigation section ========== */
       }
