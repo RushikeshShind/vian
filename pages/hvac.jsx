@@ -60,7 +60,7 @@ const ProjectDetails = () => {
             <div className="col-md-6">
               <figure className="rounded">
                 <img
-                  src="/img/photos/picture4.png"
+                  src="/img/picture4.png"
                   alt="Unidirectional Flow"
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                 />
@@ -81,7 +81,7 @@ const ProjectDetails = () => {
             <div className="col-md-6 order-md-2">
               <figure className="rounded">
                 <img
-                  src="/img/photos/picture3.png"
+                  src="/img/picture3.png"
                   alt="Clean Room Example"
                   style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                 />
