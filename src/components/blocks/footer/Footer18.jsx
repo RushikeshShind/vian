@@ -46,8 +46,8 @@ const Footer18 = () => {
               <p>Works:
               Plot No 18, Mira Co-op. , Industrial Estate, Opp Amar Palace
               Hotel, Kashimira, Mira Road (E), Dist Thane – 401107.</p></address>
-            <a href="mailto:#" className="link-body">
-              info@email.com
+            <a href="mailto: Vinit.Chauhan@my-vian.com" className="link-body">
+            Vinit.Chauhan@my-vian.com
             </a>
             <br /> 00 (123) 456 78 90
           </div>
