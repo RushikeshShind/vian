@@ -105,30 +105,7 @@ const projectList = [{
     height: 1200,
     url: '/img/vian/stainless8.jpg'
   }
-}, {
-  id: 9,
-  link: '#',
-  color: 'pink',
-  type: 'product',
-  category: '',
-  title: '',
-  image: {
-    width: 1200,
-    height: 800,
-    url: '/img/vian/Stainless9.jpg'
-  }
-}, {
-  id: 10,
-  link: '#',
-  color: 'purple',
-  type: 'product',
-  category: '',
-  title: '',
-  image: {
-    width: 1200,
-    height: 830,
-    url: '/img/vian/img-14.jpg'
-  }
+}, 
 }];
 const filterItems = [{
   id: 1,
