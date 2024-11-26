@@ -65,7 +65,7 @@ const ProjectDetails = () => {
                   style={{ maxWidth: "100%", height: "auto" }}
                 /> */}
                  <img
-                  src="/img/456.png"
+                  src="/img/airflow1.png"
                   alt=""
                   style={{ maxWidth: "100%", height: "auto"}}
                 />
