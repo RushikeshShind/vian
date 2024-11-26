@@ -59,13 +59,13 @@ const ProjectDetails = () => {
             {/* Image Column */}
             <div className="col-md-6">
               <figure className="rounded">
-                <img
-                  src="/img/picture9.png"
+                {/* <img
+                  src="/img/123.png"
                   alt=""
                   style={{ maxWidth: "100%", height: "auto" }}
-                />
+                /> */}
                  <img
-                  src="/img/picture8.png"
+                  src="/img/456.png"
                   alt=""
                   style={{ maxWidth: "100%", height: "auto"}}
                 />
