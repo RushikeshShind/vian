@@ -127,7 +127,7 @@ const projectList = [{
   image: {
     width: 1200,
     height: 830,
-    url: '/img/vian/img-14.jpg'
+    url: '/img/vian/stainless7.jpg'
   }
 }];
 const filterItems = [{
