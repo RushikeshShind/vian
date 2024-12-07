@@ -73,13 +73,17 @@ const Projects = () => {
             </div>
             {/* Content Column */}
             <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-4 text-justify">
-                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
-                • Air flow pattern: unidirectional; <br />
+              <h4 className="display-15 ls-sm mb-4 text-justify">
+                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />  </h4>
+                <br />
+                • Air flow pattern: unidirectional <br />
+                <br />
                 • Velocity 90±20 FPM <br />
+                <br />
                 • Equipment's are having cleanliness class ISO 5 / class 100 falls under this category. <br />
+                <br />
                 • Flow type – once through / recirculated.
-              </h3>
+             
             </div>
           </div>
 
@@ -97,24 +101,27 @@ const Projects = () => {
             </div>
             {/* Content Column */}
             <div className="col-md-6 order-md-1">
-                    <h3 className="display-15 ls-sm mb-4 text-justify">
-                      <strong>Cleanroom Equipment Pressure</strong> <br />
-                      Pressure : 
-                      In medical settings, a positive pressure room (protective
+                    <h3 className="display-10 ls-sm mb-4 text-justify">
+                      <strong>Cleanroom Equipment Pressure: </strong> <br /></h3>
+                      
+                      <p>In medical settings, a positive pressure room (protective
                       environment) allows staff to keep vulnerable patients safe
                       from infections and disease. In contrast, a negative
                       pressure room uses lower air pressure to allow outside air
-                      into the segregated environment. <br />
+                      into the segregated environment. </p>
+                      <br/>
                       1. Positive Pressure. <br />
                       2. Negative Pressure . <br />
+                      <br/>
                       Differential Pressure Gauge :
                       Pressure Gauge is used in Equipment's to check the
                       Pressure Drop across HEPA with respect to Ambient .
-                      Range -0-50 MM WC / 500 Pascal .
+                      Range -0-50 MM WC / 500 Pascal .<br/>
+                      <br/>
                       1. Magnehelic <br />
                       2. Photohelic <br />
                       3. Digihelic <br />
-                    </h3>
+                    
             </div>
           </div>
         </div>

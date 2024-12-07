@@ -59,10 +59,16 @@ const Projects = () => {
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">
         <div className="projects-tiles">
+        <div className="col-md-6">
+              <h3 className="display-15 ls-sm mb-4 text-justify">
+                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
+                
+              </h3>
+            </div>
           {/* Image and Content Side-by-Side */}
           <div className="row align-items-center mb-15">
             {/* Image Column */}
-            <div className="col-md-6">
+            <div className="col-md-10">
               <figure className="rounded">
                 <img
                   src="/img/photos/table1.png"
@@ -72,18 +78,19 @@ const Projects = () => {
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-4 text-justify">
-                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
-                
-              </h3>
-            </div>
+            
           </div>
 
           {/* Repeat for Second Image and Content */}
           <div className="row align-items-center mb-15">
+          <div className="col-md-6">
+              <h3 className="display-15 ls-sm mb-4 text-justify">
+                <strong>What we offer:</strong> <br />
+                
+              </h3>
+            </div>
             {/* Image Column */}
-            <div className="col-md-8 order-md-2">
+            <div className="col-md-10 order-md-2">
               <figure className="rounded">
                 <img
                   src="/img/docs/service.png"
@@ -93,12 +100,7 @@ const Projects = () => {
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6">
-              <h3 className="display-5 ls-sm mb-4 text-justify">
-                <strong>What we offer:</strong> <br />
-                
-              </h3>
-            </div>
+            
           </div>
         </div>
       </div>

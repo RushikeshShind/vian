@@ -24,7 +24,8 @@ const Footer18 = () => {
 
             <p className="mb-4">
               © 2024 Vian. <br className="d-none d-lg-block" />
-              All rights reserved. developed by isparxinfotech.com
+              All rights reserved. developed by ISPARXINFOTECH
+
             </p>
 
             <SocialLinks className="nav social social-muted" />
