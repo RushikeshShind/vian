@@ -33,8 +33,8 @@ const Career = () => {
           <div className="container pt-10 pb-18 pb-md-20 pt-md-14 pb-lg-21 text-center">
             <div className="row">
               <div className="col-lg-8 mx-auto mb-11">
-                <h1 className="fs-15 text-uppercase text-primary mb-3">Join Our Team</h1>
-                <h3 className="display-1">We bring solutions to make life easier for our customers.</h3>
+                <h1 className="fs-15 text-uppercase text-primary mb-20"></h1>
+                <h3 className="display-1 ">Comming Soon....</h3>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Career = () => {
         {
         /* ========== features section ========== */
       }
-        <section className="wrapper bg-light">
+        {/* <section className="wrapper bg-light">
           <div className="container pb-23 pb-md-25">
             <div className="row mb-14">
               <div className="col-12 mt-n18 mt-md-n20 mt-lg-n21 position-relative">
@@ -80,12 +80,12 @@ const Career = () => {
               <NextLink title="Join Our Team" href="#" className="btn btn-primary rounded-pill" />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {
         /* ========== team section ========== */
       }
-        <section className="wrapper bg-soft-primary">
+        {/* <section className="wrapper bg-soft-primary">
           <div className="container py-14 py-md-17">
             <div className="row mt-md-n25 position-relative">
               <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
@@ -104,12 +104,12 @@ const Career = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {
         /* ========== job position section ========== */
       }
-        <section className="wrapper bg-light">
+        {/* <section className="wrapper bg-light">
           <div className="container py-14 py-md-16">
             <div className="row text-center">
               <div className="col-xl-10 mx-auto">
@@ -135,7 +135,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {
         /* ========== faq section ========== */

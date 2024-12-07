@@ -34,18 +34,12 @@ const Footer18 = () => {
         <div className="col-md-4 col-lg-3">
           <div className="widget">
             <h4 className="widget-title ls-sm mb-3">Get in Touch</h4>
-            <address className="pe-xl-1 pe-xxl-1 "><p>Overseas Branch 1 :
-              Ambergo International
-              Office-301,3rd Floor, AB Plaza7, Mamzar.
-              Dubai- UAE. </p>
-              <p>Overseas Branch 2 :
-                Braga-portugal Rua De Bela Vista 60-
-                Gualtar 4710-084. Braga Portugal.</p>
-              <p>Overseas Branch 3 :
-              Tatlısu, Erkaya Sk. No:1, 34774 Ümraniye/İstanbul, Türkiye</p>
-              <p>Works:
+            <address className="pe-xl-1 pe-xxl-1 ">
+             <h6> Works :</h6>
               Plot No 18, Mira Co-op. , Industrial Estate, Opp Amar Palace
-              Hotel, Kashimira, Mira Road (E), Dist Thane – 401107.</p></address>
+Hotel, Kashimira, Mira Road (E), Dist Thane – 401107. <br/>
+           <h6>Corporate Address :</h6>
+            D wing 2146/2147, Oberoi Garden Estate, Chandivli Farm Road, Chandivli, Mumbai – 400072, Maharashtra India. </address>
             <a href="mailto: Vinit.Chauhan@my-vian.com" className="link-body">
             Vinit.Chauhan@my-vian.com
             </a>
