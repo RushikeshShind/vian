@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="row">
               <div className="col-lg-10 col-xxl-8 mx-auto text-center">
   <img src="/img/photos/vision.png" alt="Vision" className="mb-1"  style={{ maxWidth: '500px', height: 'auto' }} />
-  <h1 className="display-1 mb-3">Vision</h1>
+  <h1 className="display-1 mb-3">Vission</h1>
   <h6 className="display-5 mb-4">
     To be a leading global provider of innovative turnkey solutions, delivering projects that redefine excellence and inspire trust. 
     We aim to set new benchmarks in quality, sustainability, and efficiency, transforming ideas into lasting legacies while empowering 

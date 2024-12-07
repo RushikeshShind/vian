@@ -49,7 +49,7 @@ const Footer18 = () => {
             <a href="mailto: Vinit.Chauhan@my-vian.com" className="link-body">
             Vinit.Chauhan@my-vian.com
             </a>
-            <br /> 00 (123) 456 78 90
+            <br /> +91 9967578862
           </div>
         </div>
 
