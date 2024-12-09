@@ -27,7 +27,7 @@ const ProjectDetails = () => {
     </header>
 
     <main className="content-wrapper">
-      <section className="wrapper bg-soft-primary ">
+      <section className="wrapper bg-soft-primary " style={{fontFamily:'Cinzel'}}>
         <div className="container pt-10 pb-19 pt-md-14 pb-md-22 text-center">
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -49,7 +49,7 @@ const ProjectDetails = () => {
       
 
 {/* Projects Section */}
-<section className="wrapper bg-light">
+<section className="wrapper bg-light"style={{fontFamily:'Cinzel'}}>
 <h1 className="display-1 mb-5 text-center">Types of Cleanroom Equipment's</h1>
 <h4 className="display-8 mb-4 text-center">1. Pass Box – Static & Dynamic <br/>
 2. Laminar Air Flow Unit (Ceiling Suspended) <br/>
@@ -243,7 +243,7 @@ recirculated into the booth Air Flow.</h6>
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6">
+            <div className="col-md-6"style={{fontFamily:'Cinzel'}}>
               <h3 className="display-15 ls-sm mb-1 text-justify">
                 <strong> </strong> <br />
                 MIST SHOWER

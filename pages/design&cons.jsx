@@ -33,7 +33,7 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="section-frame overflow-hidden">
+        <section className="section-frame overflow-hidden"style={{fontFamily:'Cinzel'}}>
           <div className="wrapper bg-gray">
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
@@ -54,7 +54,7 @@ const Projects = () => {
         {
         /* ========== projects section ========== */
       }
-        <section className="wrapper bg-light">
+        <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">

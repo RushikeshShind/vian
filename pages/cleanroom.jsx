@@ -33,7 +33,7 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="section-frame overflow-hidden">
+        <section className="section-frame overflow-hidden" style={{fontFamily:'Cinzel'}}>
           <div className="wrapper bg-gray">
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
@@ -54,7 +54,7 @@ const Projects = () => {
         {
         /* ========== projects section ========== */
       }
-        <section className="wrapper bg-light">
+        <section className="wrapper bg-light"style={{fontFamily:'Cinzel'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">
@@ -88,7 +88,7 @@ const Projects = () => {
           </div>
 
           {/* Repeat for Second Image and Content */}
-          <div className="row align-items-center mb-15">
+          <div className="row align-items-center mb-15"style={{fontFamily:'Cinzel'}}>
             {/* Image Column */}
             <div className="col-md-6 order-md-2">
               <figure className="rounded">
@@ -100,7 +100,7 @@ const Projects = () => {
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6 order-md-1">
+            <div className="col-md-6 order-md-1"style={{fontFamily:'Cinzel'}}>
                     <h3 className="display-10 ls-sm mb-4 text-justify">
                       <strong>Cleanroom Equipment Pressure: </strong> <br /></h3>
                       

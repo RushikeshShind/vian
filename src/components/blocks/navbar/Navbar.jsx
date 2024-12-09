@@ -58,7 +58,7 @@ const Navbar = props => {
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-blue" />
         </div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel'}}>
           <ul className="navbar-nav">
             
 
@@ -73,7 +73,7 @@ const Navbar = props => {
             <li className="nav-item dropdown">
               <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle" />
 
-              <div className="dropdown-menu dropdown-lg">
+              <div className="dropdown-menu dropdown-lg" style={{fontFamily:'Cinzel'}}>
                 <div className="dropdown-lg-content">
                   {projectsNavigation.map(({
                   title,

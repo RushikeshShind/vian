@@ -59,8 +59,8 @@ const Demo27 = () => {
       }
         {/* <Facts17 /> */}
 
-        <section className="wrapper bg-white">
-          <div className="container py-15 py-md-17">
+        <section className="wrapper bg-white"style={{fontFamily:'Cinzel'}}>
+          <div className="container py-15 py-md-17"style={{fontFamily:'Cinzel'}}>
             {
             /* ========== why choose us section ========== */
           }
