@@ -57,7 +57,7 @@ const Demo27 = () => {
         {
         /* ========== our solutions section ========== */
       }
-        <Facts17 />
+        {/* <Facts17 /> */}
 
         <section className="wrapper bg-white">
           <div className="container py-15 py-md-17">

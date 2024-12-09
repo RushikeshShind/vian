@@ -102,7 +102,7 @@ const navigations = [{
   }, {
     id: 25,
     url: null,
-    title: 'Career',
+    title: 'Careers',
     children: [{
       id: 251,
       title: 'Job Listing I',

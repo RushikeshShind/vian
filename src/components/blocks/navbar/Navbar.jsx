@@ -111,7 +111,7 @@ const Navbar = props => {
             {
             /* ===================== blocks nav item ===================== */
           }
-          <li className="nav-item dropdown dropdown-mega"> <Link href="/Projects"> <a className="nav-link">Projects</a> </Link> </li>
+          <li className="nav-item dropdown dropdown-mega"> <Link href="/Projects"> <a className="nav-link">Executed Projects</a> </Link> </li>
           <li className="nav-item dropdown dropdown-mega"> <Link href="/career-1"> <a className="nav-link">Career</a> </Link> </li>
 
               <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
@@ -188,7 +188,7 @@ const Navbar = props => {
           {
           /* ============= language dropdwown ============= */
         }
-          {language && <Language />}
+          {/* {language && <Language />} */}
 
           {
           /* ============= info button ============= */

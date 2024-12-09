@@ -11,7 +11,7 @@ const footerNav = [{
   title: 'Client',
   url: ''
 }, {
-  title: 'Career',
+  title: 'Careers',
   url: ''
 }];
 export const helps = [{

@@ -8,8 +8,8 @@ import { Autoplay } from "swiper";
 import footerNav from 'data/footer';
 
 const Footer18 = () => {
-  return <footer className="bg-gray">
-    <div className="container py-13 py-md-15">
+  return <footer style={{color:'#023469'}}>
+    <div className="container py-13 py-md-15 "style={{color:'#023469'}}>
     
     <div className="d-lg-flex flex-row align-items-lg-center">
       
@@ -62,19 +62,19 @@ Hotel, Kashimira, Mira Road (E), Dist Thane – 401107. <br/>
           </div>
         </div>
 
-        <div className="col-md-12 col-lg-3">
-          <div className="widget">
+        <div className="col-md-12 col-lg-3" style={{color:'#023469'}}>
+          <div className="widget"style={{color:'#023469'}}>
             <h4 className="widget-title ls-sm mb-3">Contact Us</h4>
             <p className="mb-5"></p>
             <div className="newsletter-wrapper">
-              <div id="mc_embed_signup2">
+              <div id="mc_embed_signup2" style={{color:'#023469'}}>
                 <form action="#" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" className="validate " target="_blank" noValidate>
-                  <div id="mc_embed_signup_scroll2">
+                  <div id="mc_embed_signup_scroll2" style={{color:'#023469'}}>
                     <div className="mc-field-group input-group form-floating">
                       <input type="email" name="EMAIL" id="mce-EMAIL2" placeholder="Email Address" className="required email form-control" />
                       <label htmlFor="mce-EMAIL2">Email Address</label>
 
-                      <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe2" className="btn btn-primary" />
+                      <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe2" className="btn btn-primary"  />
                     </div>
 
                     {
