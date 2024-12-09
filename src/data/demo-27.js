@@ -19,7 +19,7 @@ const serviceList = [{
   id: 1,
   Icon: Telephone,
   color: color.blue,
-  title: 'Vision',
+  title: 'Comprehensive Services',
   description: `To be a leading global provider of innovative turnkey solutions, delivering projects that redefine excellence andinspire trust. We aim to set new benchmarks in quality, sustainability, and efficiency, transforming ideas into lastinglegacies while empowering our clients to achieve their goals effortlessly.`
 }, {
   id: 2,

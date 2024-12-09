@@ -14,23 +14,24 @@ import PageProgress from 'components/common/PageProgress';
 import { Testimonial21 } from 'components/blocks/testimonial';
 import Topbar from 'components/elements/Topbar';
 import { Clients1 } from 'components/blocks/clients';
+
 const Demo27 = () => {
   
-  return <Fragment>
+  return <Fragment >
       <PageProgress />
 
       {
          <Topbar />
       /* ========== header ========== */
     }
-      <header className="wrapper bg-light">
+      <header className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
         <Navbar info search stickyBox={false} navOtherClass="navbar-other ms-lg-4" navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-light" />
       </header>
 
       {
       /* ========== main content ========== */
     }
-      <main className="content-wrapper">
+      <main className="content-wrapper" style={{fontFamily:'Cinzel'}}>
         {
         /* ========== hero section ========== */
       }
@@ -39,6 +40,8 @@ const Demo27 = () => {
         {
         /* ========== what we do section ========== */
       }
+     
+
         <Services29 />
 
         {
@@ -79,8 +82,8 @@ const Demo27 = () => {
            
             <FAQ7 />
           </div>
-          <h1 className="display-1 mb-1 text-center">Software Used</h1>
-            <div className="px-lg-5 mb-1 mb-md-1">
+          <h1 className="display-1 mb-1 text-center" style={{fontFamily:'Cinzel'}}>Software Used</h1>
+            <div className="px-lg-5 mb-1 mb-md-1" style={{fontFamily:'Cinzel'}}>
               <Clients1 />
             </div>
         </section>

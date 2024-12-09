@@ -41,7 +41,7 @@ const Projects = () => {
               <h1 className="display-1 mb-3"  style={{ 
     borderBottom: '1px solid #003366', 
     paddingBottom: '10px' // Optional, for spacing between text and underline
-  }}> Our Mission</h1>
+  }}> Our Vision </h1>
                 {/* Image and Content Side-by-Side */}
                 <div className="row align-items-center mb-1">
                   {/* Image Column */}
@@ -49,7 +49,7 @@ const Projects = () => {
                   <div className="col-md-6">
                     <figure className="rounded">
                       <img
-                        src="/img/photos/mission.png"
+                        src="/img/photos/5899209.jpg"
                         alt="Unidirectional Flow"
                         style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                       />
@@ -59,7 +59,7 @@ const Projects = () => {
                   <div className="col-md-6">
                     <h3 className="display-15 ls-sm mb-4 text-justify">
                      
-                    To deliver exceptional turnkey solutions through a commitment to quality, innovation, and customer satisfaction. We strive to simplify complex projects by managing every phase with expertise and integrity, ensuring timely completion, cost-effectiveness, and seamless execution. Our mission is to build lasting relationships by consistently exceeding expectations and creating value for our clients, stakeholders, and associates.
+                    To be a leading global provider of innovative turnkey solutions, delivering projects that redefine excellence and inspire trust. We aim to set new benchmarks in quality, sustainability, and efficiency, transforming ideas into lasting legacies while empowering our clients to achieve their goals effortlessly.
                     </h3>
                   </div>
                 </div>

@@ -285,12 +285,20 @@ const projectsNavigation = [{
   
   children: [{
     id: 1,
-    title: 'Vission',
-    url: '/vission'
+    title: 'About VIAN',
+    url: '/aboutus'
   }, {
+    id: 2,
+    title: 'Our Vision',
+    url: '/vision'
+  },{
     id: 2,
     title: 'Our Mission',
     url: '/mission'
+  },{
+    id: 2,
+    title: 'Why choose VIAN',
+    url: '/whychoosevian'
   }]
 }, ];
 // blog pages links
