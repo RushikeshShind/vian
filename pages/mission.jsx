@@ -41,7 +41,7 @@ const Projects = () => {
               <h1 className="display-1 mb-3"  style={{ 
     borderBottom: '1px solid #003366', 
     paddingBottom: '10px' // Optional, for spacing between text and underline
-  }}> Our Mission</h1>
+  }}> OUR MISSION</h1>
                 {/* Image and Content Side-by-Side */}
                 <div className="row align-items-center mb-1">
                   {/* Image Column */}

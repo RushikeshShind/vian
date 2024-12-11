@@ -29,7 +29,7 @@ const BlogThree = () => {
               <h1 className="display-1 mb-3"  style={{ 
     borderBottom: '1px solid #003366', 
     paddingBottom: '5px' // Optional, for spacing between text and underline
-  }}> About Us </h1>
+  }}> ABOUT US </h1>
               <p className="lead px-lg-5 px-xxl-8">
 
               </p>

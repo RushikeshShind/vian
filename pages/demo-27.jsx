@@ -17,15 +17,15 @@ import { Clients1 } from 'components/blocks/clients';
 
 const Demo27 = () => {
   
-  return <Fragment >
-      <PageProgress />
+  return <Fragment  style={{fontFamily:'Cinzel'}}>
+      <PageProgress style={{fontFamily:'Cinzel'}} />
 
       {
          <Topbar />
       /* ========== header ========== */
     }
       <header className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
-        <Navbar info search stickyBox={false} navOtherClass="navbar-other ms-lg-4" navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-light" />
+        <Navbar info search stickyBox={false} navOtherClass="navbar-other ms-lg-4" navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-light" style={{fontFamily:'Cinzel'}} />
       </header>
 
       {
@@ -35,24 +35,24 @@ const Demo27 = () => {
         {
         /* ========== hero section ========== */
       }
-        <Hero27 />
+        <Hero27 style={{fontFamily:'Cinzel'}}/>
 
         {
         /* ========== what we do section ========== */
       }
      
 
-        <Services29 />
+        <Services29 style={{fontFamily:'Cinzel'}}/>
 
         {
         /* ========== how it works section ========== */
       }
-        <Process17 />
+        <Process17 style={{fontFamily:'Cinzel'}} />
 
         {
         /* ========== case study section ========== */
       }
-        <Blog7 />
+        <Blog7 style={{fontFamily:'Cinzel'}}/>
 
         {
         /* ========== our solutions section ========== */
@@ -64,27 +64,27 @@ const Demo27 = () => {
             {
             /* ========== why choose us section ========== */
           }
-            <About28 />
+            <About28 style={{fontFamily:'Cinzel'}}/>
 
             {
             /* ========== happy customers section ========== */
           }
-            <Testimonial21 />
+            <Testimonial21 style={{fontFamily:'Cinzel'}}/>
 
             {
             /* ========== our pricing section ========== */
           }
-            <Pricing10 />
+            <Pricing10 style={{fontFamily:'Cinzel'}}/>
 
             {
             /* ========== faq section ========== */
           }
            
-            <FAQ7 />
+            <FAQ7 style={{fontFamily:'Cinzel'}}/>
           </div>
           <h1 className="display-1 mb-1 text-center" style={{fontFamily:'Cinzel'}}>Software Used</h1>
             <div className="px-lg-5 mb-1 mb-md-1" style={{fontFamily:'Cinzel'}}>
-              <Clients1 />
+              <Clients1 style={{fontFamily:'Cinzel'}}/>
             </div>
         </section>
       </main>
@@ -92,7 +92,7 @@ const Demo27 = () => {
       {
       /* ========== footer section ========== */
     }
-      <Footer18 />
+      <Footer18 style={{fontFamily:'Cinzel'}}/>
     </Fragment>;
 };
 

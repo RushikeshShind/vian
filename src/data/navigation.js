@@ -286,7 +286,8 @@ const projectsNavigation = [{
   children: [{
     id: 1,
     title: 'About VIAN',
-    url: '/aboutus'
+    url: '/aboutus',
+    style: { color: 'white' }
   }, {
     id: 2,
     title: 'Our Vision',

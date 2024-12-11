@@ -25,8 +25,8 @@ const Projects = () => {
         {
             /* ========== header section ========== */
         }
-        <header className="wrapper bg-gray">
-            <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
+        <header className="wrapper bg-gray" >
+            <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill"style={{fontFamily:'Cinzel'}} />} />
         </header>
 
         <main className="content-wrapper">
@@ -36,7 +36,8 @@ const Projects = () => {
 
             <h1 className="display-1 mb-3 text-center" style={{
                 borderBottom: '1px solid #003366',
-                paddingBottom: '10px' // Optional, for spacing between text and underline
+                paddingBottom: '10px' ,
+                fontFamily:'Cinzel'
             }}> Why
                 Should You
                 Choose Us?</h1>

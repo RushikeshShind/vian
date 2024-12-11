@@ -48,17 +48,17 @@ const Navbar = props => {
 
 
   const headerContent = <Fragment>
-      <div className="navbar-brand w-50">
-        <NextLink href="/demo-27" title={<img alt="logo" src={`/img/${logo}.png`} style={{ width: '100px', height: 'auto' }}  />} />
+      <div className="navbar-brand w-50" style={{fontFamily:'Cinzel', color:'white'}}>
+        <NextLink href="#" title={<img alt="logo" src={`/img/${logo}.png`} style={{ width: '100px', height: 'auto' }}  />} />
       </div>
 
-      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"style={{color:'white'}}>
         <div className="offcanvas-header d-lg-none">
           <h3 className="text-white   q fs-30 mb-0">Vian</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-blue" />
         </div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel'}}>
+        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel', color:'white'}}>
           <ul className="navbar-nav">
             
 
@@ -70,17 +70,17 @@ const Navbar = props => {
             {
             /* ===================== projects nav item  ===================== */
           }
-            <li className="nav-item dropdown">
-              <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle" />
+            <li className="nav-item dropdown" style={{fontFamily:'Cinzel', color:'white'}}>
+              <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle"  style={{fontFamily:'Cinzel'}}/>
 
-              <div className="dropdown-menu dropdown-lg" style={{fontFamily:'Cinzel'}}>
-                <div className="dropdown-lg-content">
+              <div className="dropdown-menu dropdown-lg" style={{fontFamily:'Cinzel', color:'white'}}>
+                <div className="dropdown-lg-content"style={{color:'white'}}>
                   {projectsNavigation.map(({
                   title,
                   children
                 }, i) => <div key={title + i}>
-                      <h6 className="dropdown-header">{title}</h6>
-                      <ul className="list-unstyled">{renderLinks(children)}</ul>
+                      <h6 className="dropdown-header"style={{color:'white'}}>{title}</h6>
+                      <ul className="list-unstyled"style={{color:'white'}}>{renderLinks(children)}</ul>
                     </div>)}
                 </div>
               </div>
@@ -89,10 +89,10 @@ const Navbar = props => {
             {
             /* ===================== blog nav item ===================== */
           }
-            <li className="nav-item dropdown">
-              <DropdownToggleLink title="Our Expertise" className="nav-link dropdown-toggle" />
+            <li className="nav-item dropdown" style={{fontFamily:'Cinzel'}}>
+              <DropdownToggleLink title="Our Expertise" className="nav-link dropdown-toggle" style={{fontFamily:'Cinzel'}}/>
 
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu" style={{fontFamily:'Cinzel'}}>
                 {blogsNavigation.map(({
                 id,
                 url,
@@ -111,10 +111,10 @@ const Navbar = props => {
             {
             /* ===================== blocks nav item ===================== */
           }
-          <li className="nav-item dropdown dropdown-mega"> <Link href="/Projects"> <a className="nav-link">Executed Projects</a> </Link> </li>
-          <li className="nav-item dropdown dropdown-mega"> <Link href="/career-1"> <a className="nav-link">Career</a> </Link> </li>
+          <li className="nav-item dropdown dropdown-mega" style={{fontFamily:'Cinzel'}}> <Link href="/Projects"> <a className="nav-link">Executed Projects</a> </Link> </li>
+          <li className="nav-item dropdown dropdown-mega"style={{fontFamily:'Cinzel'}}> <Link href="/career-1"> <a className="nav-link">Career</a> </Link> </li>
 
-              <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+              <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img"style={{fontFamily:'Cinzel'}}>
 
                 {/* <li className="mega-menu-content">
                   <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
@@ -142,7 +142,7 @@ const Navbar = props => {
             {
             /* ===================== documentation nav item ===================== */
           }
-            <li className="nav-item dropdown dropdown-mega">
+            <li className="nav-item dropdown dropdown-mega"style={{fontFamily:'Cinzel'}}>
             <Link href="/contact-1"> <a className="nav-link">Contact Us</a> </Link>
               {/* { <ul className="dropdown-menu mega-menu">
                 <li className="mega-menu-content">
@@ -184,7 +184,7 @@ const Navbar = props => {
       /* ============= right side header content ============= */
     }
       <div className={navOtherClass}>
-        <ul className="navbar-nav flex-row align-items-center ms-auto">
+        <ul className="navbar-nav flex-row align-items-center ms-auto"style={{fontFamily:'Cinzel'}}>
           {
           /* ============= language dropdwown ============= */
         }
@@ -202,7 +202,7 @@ const Navbar = props => {
           {
           /* ============= search icon button ============= */
         }
-          {search && <li className="nav-item">
+          {search && <li className="nav-item"style={{fontFamily:'Cinzel'}}>
               <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search">
                 <i className="uil uil-search" />
               </a>
@@ -246,10 +246,10 @@ const Navbar = props => {
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         {fancy ? <div className="container">
-            <div className="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center">
+            <div className="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center"style={{fontFamily:'Cinzel', color:'white'}}>
               {headerContent}
             </div>
-          </div> : <div className="container flex-lg-row flex-nowrap align-items-center">{headerContent}</div>}
+          </div> : <div className="container flex-lg-row flex-nowrap align-items-center"style={{fontFamily:'Cinzel'}}>{headerContent}</div>}
       </nav>
 
       {
