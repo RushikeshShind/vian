@@ -23,18 +23,16 @@ const ProjectDetails = () => {
       /* ========== header section ========== */
     }
     <header className="wrapper bg-soft-primary">
-      <Navbar language button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
+      <Navbar language button={<NextLink title="Contact" href="" className="btn btn-sm btn-primary rounded-pill" />} />
     </header>
 
     <main className="content-wrapper">
       <section className="wrapper bg-soft-primary "style={{fontFamily:'Cinzel'}}>
-        <div className="container pt-10 pb-19 pt-md-14 pb-md-22 text-center">
+        <div className="container pt-10 pb-19 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div className="post-header">
-                <div className="post-category text-line">
-                  <NextLink title="Airflow " href="#" className="hover" />
-                </div>
+               
 
                 <h1 className="display-1 mb-5">Airflow Modelling</h1>
                 <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">

@@ -25,7 +25,7 @@ const Projects = () => {
       {
       /* ========== header section ========== */
     }
-      <header className="wrapper bg-gray">
+      <header className="wrapper bg-gray" style={{fontFamily:'Cinzel'}}>
         <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
       </header>
 
@@ -33,8 +33,8 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="wrapper bg-light" >
-        <div className="container py-14 py-md-1">
+        <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}} >
+        <div className="container py-14 py-md-1"style={{fontFamily:'Cinzel'}}>
           <div className="row mt-6">
             <div className="col-xl-10 mx-auto">
               <div className=" display-1 projects-tiles text-center">
@@ -55,10 +55,10 @@ const Projects = () => {
                         style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
                       />
                     </figure>
-                  </div>
+                  </div >
                   {/* Content Column */}
-                  <div className="col-md-6">
-                    <h3 className="display-15 ls-sm mb-4 text-justify">
+                  <div className="col-md-6"style={{fontFamily:'Cinzel'}}>
+                    <h3 className="display-10 ls-sm mb-4 text-justify" style={{fontFamily:'Cinzel'}}>
                      
                     To be a leading global provider of innovative turnkey solutions, delivering projects that redefine excellence and inspire trust. We aim to set new benchmarks in quality, sustainability, and efficiency, transforming ideas into lasting legacies while empowering our clients to achieve their goals effortlessly.
                     </h3>

@@ -26,7 +26,7 @@ const About28 = () => {
 
       <div className="col-lg-6 mb-1">
         <h2 className="fs-15 text-uppercase text-muted mb-3"></h2>
-        <h3 className="display-3 ls-sm mb-5">– Quality Assurance Policy</h3>
+        <h3 className="display-3 ls-sm mb-5"style={{color:'#134B70'}}>– Quality Assurance Policy</h3>
         <p className="mb-5">
         <p>•Inhouse QAP Systems For Design, Engineering, Inward And
         Outward Of Material </p>

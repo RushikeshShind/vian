@@ -28,13 +28,13 @@ const ProjectDetails = () => {
 
     <main className="content-wrapper">
       <section className="wrapper bg-soft-primary " style={{fontFamily:'Cinzel'}}>
-        <div className="container pt-10 pb-19 pt-md-14 pb-md-22 text-center">
+        <div className="container pt-10 pb-19 pt-md-14 pb-md-15 text-center">
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div className="post-header">
-                <div className="post-category text-line">
+                {/* <div className="post-category text-line">
                   <NextLink title="Airflow " href="#" className="hover" />
-                </div>
+                </div> */}
 
                 <h1 className="display-1 mb-5">Cleanroom Equipment's</h1>
                 <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">
@@ -50,8 +50,8 @@ const ProjectDetails = () => {
 
 {/* Projects Section */}
 <section className="wrapper bg-light"style={{fontFamily:'Cinzel'}}>
-<h1 className="display-1 mb-5 text-center">Types of Cleanroom Equipment's</h1>
-<h4 className="display-8 mb-4 text-center">1. Pass Box – Static & Dynamic <br/>
+<h1 className="display-7 mb-12 text-center">Types of Cleanroom Equipment's</h1>
+<h4 className="display-8 mb-12 text-center">1. Pass Box – Static & Dynamic <br/>
 2. Laminar Air Flow Unit (Ceiling Suspended) <br/>
 3. Laminar Air Flow Unit (Stand Mounted) <br/>
 4. Horizontal Laminar Flow Unit<br/>
