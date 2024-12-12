@@ -16,7 +16,7 @@ const Pricing10 = () => {
               <img src="/img/photos/table1.png"  />
             </figure>
           </div> */}
-          <h3 className="display-3 ls-sm mb-10 px-xl-15">
+          <h3 className="display-3 ls-sm mb-10 px-xl-15" style={{color:'#003366'}} >
           Inhouse CRP & Ceiling Manufacturing Unit With Latest Technology
           </h3>
           <div className="col-md-15">

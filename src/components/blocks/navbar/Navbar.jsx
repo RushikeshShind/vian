@@ -35,10 +35,10 @@ const Navbar = props => {
     logoAlt
   } = props;
   useNestedDropdown();
-  const sticky = useSticky(250);
+  const sticky = useSticky(200);
   const navbarRef = useRef(null); // dynamically render the logo
 
-  const logo = sticky ? 'vian' : logoAlt ?? 'vian'; // dynamically added navbar classname
+  const logo = sticky ? 'vian 1' : logoAlt ?? 'vian 1'; // dynamically added navbar classname
 
   const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed'; // render inner nav item links
 
@@ -48,17 +48,17 @@ const Navbar = props => {
 
 
   const headerContent = <Fragment>
-      <div className="navbar-brand w-50" style={{fontFamily:'Cinzel', color:'white'}}>
-        <NextLink href="#" title={<img alt="logo" src={`/img/${logo}.png`} style={{ width: '100px', height: 'auto' }}  />} />
+      <div className="navbar-brand " style={{fontFamily:'Cinzel'}}>
+        <NextLink href="#" title={<img alt="logo" src={`/img/${logo}.png`} style={{ width: '120px', height: '100px' }}  />} />
       </div>
 
-      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"style={{color:'white'}}>
+      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
           <h3 className="text-white   q fs-30 mb-0">Vian</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-blue" />
         </div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel', color:'white'}}>
+        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel'}}>
           <ul className="navbar-nav">
             
 
@@ -168,7 +168,7 @@ const Navbar = props => {
           {
           /* ============= show contact info in the small device sidebar ============= */
         }
-          {/* <div className="offcanvas-footer d-lg-none">
+           <div className="offcanvas-footer d-lg-none">
             <div>
               <NextLink title=" Vinit.Chauhan@my-vian.com" className="link-inverse" href="mailto:first.last@email.com" />
               <br />
@@ -176,7 +176,7 @@ const Navbar = props => {
               <br />
               <SocialLinks />
             </div>
-          </div> */}
+          </div> 
         </div>
       </div>
 

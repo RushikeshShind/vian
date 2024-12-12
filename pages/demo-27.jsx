@@ -82,7 +82,7 @@ const Demo27 = () => {
            
             <FAQ7 style={{fontFamily:'Cinzel'}}/>
           </div>
-          <h1 className="display-1 mb-1 text-center" style={{fontFamily:'Cinzel'}}>Software Used</h1>
+          <h1 className="display-1 mb-1 text-center mb-12" style={{fontFamily:'Cinzel', color:'#003366'}}>Software Used</h1>
             <div className="px-lg-5 mb-1 mb-md-1" style={{fontFamily:'Cinzel'}}>
               <Clients1 style={{fontFamily:'Cinzel'}}/>
             </div>

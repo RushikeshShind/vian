@@ -17,10 +17,10 @@ const Services29 = () => {
         style={{ color: "Blue" }}
       >
         <div className="row text-center">
-          <div className="col-md-10 col-lg-10 col-xxl-8 mx-auto">
+          <div className="col-md-12 col-lg-10 col-xxl-8 mx-auto">
             <h3
-              className="display-5 ls-sm mb-12 px-xl-0"
-              style={{ color: "" }}
+              className="display-5 ls-sm mb-12 px-xl-1"
+              style={{ color: "#134B70" }}
             >
               VIAN
             </h3>
@@ -64,10 +64,10 @@ const Services29 = () => {
                       color: "#fff",
                     }}
                   >
-                    {item === 1 && "About VIAN – "}
-                    {item === 2 && "Our Vision –"}
-                    {item === 3 && "Our Mission –"}
-                    {item === 4 && "Why choose VIAN - "}
+                    {item === 1 && "About VIAN  "}
+                    {item === 2 && "Our Vision "}
+                    {item === 3 && "Our Mission "}
+                    {item === 4 && "Why choose VIAN  "}
                   </h5>
                   <p
                     style={{

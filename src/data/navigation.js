@@ -518,7 +518,7 @@ const documentionNavigation = {
 
 const blocksNavigation = [{
   id: 1,
-  url: '/docs/blocks/about',
+  url: '/carrerabout',
   title: 'About',
   thumnail: '/img/demos/block1.svg'
 }, {

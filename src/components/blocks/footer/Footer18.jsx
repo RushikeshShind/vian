@@ -36,15 +36,17 @@ const Footer18 = () => {
           <div className="widget">
             <h4 className="widget-title ls-sm mb-3">Get in Touch</h4>
             <address className="pe-xl-1 pe-xxl-1 ">
-             <h6> Works :</h6>
+      <h6>Corporate Address :</h6>
+            D wing 2146/2147, Oberoi Garden Estate, Chandivli Farm Road, Chandivli, Mumbai – 400072, Maharashtra India. </address>
+            <h6 >Overseas Branch:</h6>
+           <p>VIAN Turnkey Projects FZCO, Premises no. - 50956 - 001, IFZA Business park, DDP, Dubai,UAE.</p> 
+            <h6> Works :</h6>
               Plot No 18, Mira Co-op. , Industrial Estate, Opp Amar Palace
 Hotel, Kashimira, Mira Road (E), Dist Thane – 401107. <br/>
-           <h6>Corporate Address :</h6>
-            D wing 2146/2147, Oberoi Garden Estate, Chandivli Farm Road, Chandivli, Mumbai – 400072, Maharashtra India. </address>
             <a href="mailto: Vinit.Chauhan@my-vian.com" className="link-body">
             Vinit.Chauhan@my-vian.com
             </a>
-            <br /> +91 9967578862
+            <br /> +91 9967578862 / +971586921920
           </div>
         </div>
 
