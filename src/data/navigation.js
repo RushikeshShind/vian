@@ -311,7 +311,8 @@ const blogsNavigation = [{
 }, {
   id: 2,
   url: '/cleanroom',
-  title: 'Cleanroom Panels & Equipment’s '
+  title: 'Cleanroom Panels & Equipment’s ',
+  
 }, {
   id: 3,
   url: '/projects-3',

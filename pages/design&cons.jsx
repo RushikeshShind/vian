@@ -38,10 +38,10 @@ const Projects = () => {
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1">Design & Consultancy
+                  <h1 className="display-1 mb-1" style={{color:'#134B70', fontFamily:'Cinzel'}}>Design & Consultancy
                   </h1>
                   <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
+        borderBottom: "3px solid #134B70", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>

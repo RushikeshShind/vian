@@ -9,7 +9,7 @@ const Services29 = () => {
         background: "",
         padding: "40px 20px",
         borderRadius: "16px",
-        fontFamily:'Cinzel'
+        fontFamily: 'Cinzel'
       }}
     >
       <div
@@ -88,6 +88,7 @@ const Services29 = () => {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

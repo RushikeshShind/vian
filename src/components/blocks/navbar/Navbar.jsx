@@ -89,24 +89,52 @@ const Navbar = props => {
             {
             /* ===================== blog nav item ===================== */
           }
-            <li className="nav-item dropdown" style={{fontFamily:'Cinzel'}}>
-              <DropdownToggleLink title="Our Expertise" className="nav-link dropdown-toggle" style={{fontFamily:'Cinzel'}}/>
+            <li className="nav-item dropdown" style={{ fontFamily: 'Cinzel' }}>
+  <DropdownToggleLink title="Our Expertise" className="nav-link dropdown-toggle" style={{ fontFamily: 'Cinzel' }} />
 
-              <ul className="dropdown-menu" style={{fontFamily:'Cinzel'}}>
-                {blogsNavigation.map(({
-                id,
-                url,
-                title,
-                children
-              }) => {
-                if (!url && children) {
-                  return ;
-                }
+  <ul className="dropdown-menu" style={{ fontFamily: 'Cinzel' }}>
+    {/* Design & Consultancy */}
+    <li>
+      <ListItemLink href="/design&cons" title="Design & Consultancy" linkClassName="dropdown-item" />
+    </li>
 
-                return <ListItemLink key={id} href={url} title={title} linkClassName="dropdown-item" />;
-              })}
-              </ul>
-            </li>
+    
+    {/* Project Management */}
+    <li>
+      <ListItemLink href="/Projectmgm" title="Project Management" linkClassName="dropdown-item" />
+    </li>
+
+
+    {/* Turnkey Solutions */}
+    <li className="dropdown-submenu">
+      <span className="dropdown-item dropdown-toggle">Turnkey Solutions</span>
+      <ul className="dropdown-menu">
+        <li>
+          <ListItemLink href="\cleanroom" title="Cleanroom Panels & Equipment" linkClassName="dropdown-item" />
+        </li>
+        <li>
+          <ListItemLink href="/hvac" title="HVAC & Ducting" linkClassName="dropdown-item" />
+        </li>
+        <li>
+          <ListItemLink href="/turnkey/machinery" title="Machinery" linkClassName="dropdown-item" />
+        </li>
+        <li>
+          <ListItemLink href="/turnkey/lab-office-furniture" title="Lab & Office Furniture" linkClassName="dropdown-item" />
+        </li>
+        <li>
+          <ListItemLink href="/turnkey/flooring" title="Flooring" linkClassName="dropdown-item" />
+        </li>
+        <li>
+          <ListItemLink href="/turnkey/electrical" title="Electrical, BMS and More" linkClassName="dropdown-item" />
+        </li>
+      </ul>
+    </li>
+
+
+    
+  </ul>
+</li>
+
 
             {
             /* ===================== blocks nav item ===================== */

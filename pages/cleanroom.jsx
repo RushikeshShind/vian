@@ -38,10 +38,10 @@ const Projects = () => {
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1">Clean Room Panels
+                  <h1 className="display-1 mb-1" style={{fontFamily:'Cinzel'}}>Cleanroom Panels & Equipment
                   </h1>
                   <div style={{ 
-        borderBottom: "3px solid #2596be", /* Dark blue line */
+        borderBottom: "3px solid #134B70", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>
@@ -74,7 +74,7 @@ const Projects = () => {
             {/* Content Column */}
             <div className="col-md-6">
               <h4 className="display-15 ls-sm mb-4 text-justify">
-                <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />  </h4>
+                <strong style={{color:'#134B70'}}>Unidirectional Flow (Laminar Air Flow):</strong> <br />  </h4>
                 <br />
                 • Air flow pattern: unidirectional <br />
                 <br />
@@ -102,7 +102,7 @@ const Projects = () => {
             {/* Content Column */}
             <div className="col-md-6 order-md-1"style={{fontFamily:'Cinzel'}}>
                     <h3 className="display-10 ls-sm mb-4 text-justify">
-                      <strong>Cleanroom Equipment Pressure: </strong> <br /></h3>
+                      <strong style={{color:'#134B70'}}>Cleanroom Equipment Pressure: </strong> <br /></h3>
                       
                       <p>In medical settings, a positive pressure room (protective
                       environment) allows staff to keep vulnerable patients safe

@@ -32,14 +32,18 @@ const ProjectDetails = () => {
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div className="post-header">
-                <div className="post-category text-line">
-                  <NextLink title="HVAC" href="#" className="hover" />
-                </div>
+               
 
-                <h1 className="display-1 mb-5">HVAC System</h1>
+                <h1 className="display-1 mb-5 hover" style={{fontFamily:'Cinzel', color:'#134B70'}}>HVAC SYSTEM</h1>
+                <div style={{ 
+        borderBottom: "3px solid #134B70", /* Dark blue line */
+        width: "100%", /* Adjust line width */
+        margin: "1rem auto" /* Center and add spacing */
+      }}></div>
                 <p className="lead px-md-12 px-lg-12 px-xl-15 px-xxl-18">
-                  DESIGN BUILD MANUFACTURE <br /> - HVAC design expertise
+                  DESIGN BUILD MANUFACTURE <br /> HVAC design expertise
                 </p>
+                
               </div>
             </div>
           </div>
