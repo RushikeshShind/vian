@@ -1,5 +1,4 @@
-import { Fragment } from 'react'; // -------- custom component -------- //
-
+import { Fragment, useEffect } from 'react';
 import { FAQ7 } from 'components/blocks/faq';
 import { Blog7 } from 'components/blocks/blog';
 import { Hero27 } from 'components/blocks/hero';
@@ -15,84 +14,74 @@ import Topbar from 'components/elements/Topbar';
 import { Clients1 } from 'components/blocks/clients';
 
 const Demo27 = () => {
-  
-  return <Fragment  style={{fontFamily:'Cinzel'}}>
-      <PageProgress style={{fontFamily:'Cinzel'}} />
-
+  // Intersection Observer Hook
+  useEffect(() => {
+    const sections = document.querySelectorAll('.scroll-section');
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('slideInDown');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
       {
-         <Topbar />
-      /* ========== header ========== */
-    }
-      <header className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
-        <Navbar info search stickyBox={false} navOtherClass="navbar-other ms-lg-4" navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-light" style={{fontFamily:'Cinzel'}} />
+        threshold: 0.5, // Trigger when 50% of the section is visible
+      }
+    );
+
+    sections.forEach(section => observer.observe(section));
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  return (
+    <Fragment style={{fontFamily:'Arial' }}>
+      <PageProgress style={{fontFamily:'Arial' }} />
+      
+      <Topbar />
+
+      {/* Header */}
+      <header className="wrapper bg-light" style={{fontFamily:'Arial'}}>
+        <Navbar info search stickyBox={false} navOtherClass="navbar-other ms-lg-4" navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-light" style={{ fontFamily:'Arial' }} />
       </header>
 
-      {
-      /* ========== main content ========== */
-    }
-      <main className="content-wrapper" style={{fontFamily:'Cinzel'}}>
-        {
-        /* ========== hero section ========== */
-      }
-        <Hero27 style={{fontFamily:'Cinzel'}}/>
+      {/* Main Content */}
+      <main className="content-wrapper" style={{ fontFamily:'Arial' }}>
+        {/* Hero Section */}
+        <Hero27 style={{ fontFamily: 'Arial' }} className="scroll-section" />
 
-        {
-        /* ========== what we do section ========== */
-      }
-     
+        {/* What We Do Section */}
+        <Services29 style={{ fontFamily:'Arial' }} className="scroll-section" />
 
-        <Services29 style={{fontFamily:'Cinzel'}}/>
+        {/* How It Works Section */}
+        <Process17 style={{ fontFamily:'Arial' }} className="scroll-section" />
 
-        {
-        /* ========== how it works section ========== */
-      }
-        <Process17 style={{fontFamily:'Cinzel'}} />
+        {/* Case Study Section */}
+        <Blog7 style={{ fontFamily:'Arial' }} className="scroll-section" />
 
-        {
-        /* ========== case study section ========== */
-      }
-        <Blog7 style={{fontFamily:'Cinzel'}}/>
-
-        {
-        /* ========== our solutions section ========== */
-      }
-        {/* <Facts17 /> */}
-
-        <section className="wrapper bg-white"style={{fontFamily:'Cinzel'}}>
-          <div className="container py-15 py-md-17"style={{fontFamily:'Cinzel'}}>
-            {
-            /* ========== why choose us section ========== */
-          }
-            <About28 style={{fontFamily:'Cinzel'}}/>
-
-            {
-            /* ========== happy customers section ========== */
-          }
-            <Testimonial21 style={{fontFamily:'Cinzel'}}/>
-
-            {
-            /* ========== our pricing section ========== */
-          }
-            <Pricing10 style={{fontFamily:'Cinzel'}}/>
-
-            {
-            /* ========== faq section ========== */
-          }
-           
-            <FAQ7 style={{fontFamily:'Cinzel'}}/>
+        {/* Why Choose Us Section */}
+        <section className="wrapper bg-white scroll-section" style={{ fontFamily:'Arial' }}>
+          <div className="container py-15 py-md-17" style={{ fontFamily:'Arial' }}>
+            <About28 style={{ fontFamily:'Arial' }} />
+            <Testimonial21 style={{ fontFamily:'Arial' }} />
+            <Pricing10 style={{ fontFamily:'Arial' }} />
+            <FAQ7 style={{ fontFamily:'Arial' }} />
           </div>
-          <h1 className="display-1 mb-1 text-center mb-12" style={{fontFamily:'Cinzel', color:'#003366'}}>Software Used</h1>
-            <div className="px-lg-5 mb-1 mb-md-1" style={{fontFamily:'Cinzel'}}>
-              <Clients1 style={{fontFamily:'Cinzel'}}/>
-            </div>
+          <h1 className="display-1 mb-1 text-center mb-12" style={{ fontFamily:'Arial', color: '#003366' }}>Software Used</h1>
+          <div className="px-lg-5 mb-1 mb-md-1" style={{ fontFamily:'Arial' }}>
+            <Clients1 style={{ fontFamily:'Arial'}} />
+          </div>
         </section>
       </main>
 
-      {
-      /* ========== footer section ========== */
-    }
-      <Footer18 style={{fontFamily:'Cinzel'}}/>
-    </Fragment>;
+      {/* Footer Section */}
+      <Footer18 style={{ fontFamily:'Arial' }} />
+    </Fragment>
+  );
 };
 
 export default Demo27;

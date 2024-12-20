@@ -27,7 +27,7 @@ const ProjectDetails = () => {
     </header>
 
     <main className="content-wrapper">
-      <section className="wrapper bg-soft-primary "style={{fontFamily:'Cinzel'}}>
+      <section className="wrapper bg-soft-primary "style={{fontFamily:'Arial'}}>
         <div className="container pt-10 pb-19 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -47,7 +47,7 @@ const ProjectDetails = () => {
       
 
 {/* Projects Section */}
-<section className="wrapper bg-light"style={{fontFamily:'Cinzel'}}>
+<section className="wrapper bg-light"style={{fontFamily:'Arial'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">

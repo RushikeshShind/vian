@@ -22,22 +22,24 @@ const BlogThree = () => {
       {
         /* ========== title section ========== */
       }
-      <section className="wrapper bg-gray">
-        <div className="container pt- pb-12 pt-md-14 pb-md-16 text-center"  style={{backgroundColor:'#134B70'}}>
-          <div className="row">
-            <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
-              <h1 className="display-1 mb-1" style={{fontFamily:'Cinzel',color:'white'}}> PROJECT MANAGEMENT </h1>
-              <p className="lead px-lg-5 px-xxl-8">
-              <div style={{ 
-        borderBottom: "3px solid white", /* Dark blue line */
+      <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" style={{
+        backgroundImage: 'url(/img/photos/bg3.jpg)'
+      }}>
+          <div className="wrapper" >
+            <div className="container py-13 py-md-17 text-center">
+              <div className="row">
+                <div className="col-lg-10 col-xxl-8 mx-auto">
+                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Arial'}}>PROJECT MANAGEMENT
+                  </h1>
+                  <div style={{ borderBottom: "3px solidrgb(245, 251, 255)", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>
-              </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
 
       {/* Projects Section */}
@@ -45,7 +47,7 @@ const BlogThree = () => {
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">
-        <h2 className='display-1 text-center'style={{color:'#134B70',fontFamily:'Cinzel'}}>FROM START
+        <h2 className='display-1 text-center'style={{color:'#134B70',fontFamily:'Arial'}}>FROM START
         TO SUCCESS</h2>
         <h6 className='text-center'>Step-by-step guide of VIAN</h6>
         <h4 className='display-1 text-center mb-15'>Project Management</h4>
@@ -54,7 +56,7 @@ const BlogThree = () => {
           <div 
   className="row align-items-center mb-15 shadow-box" 
   style={{
-    fontFamily: 'Cinzel', 
+    fontFamily:'Arial', 
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     padding: '20px', 
     borderRadius: '10px', 
@@ -90,7 +92,7 @@ const BlogThree = () => {
 <div 
   className="row align-items-center mb-15 shadow-box" 
   style={{
-    fontFamily: 'Cinzel', 
+    fontFamily:'Arial', 
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     padding: '20px', 
     borderRadius: '10px', 
@@ -120,7 +122,7 @@ const BlogThree = () => {
           <div 
   className="row align-items-center mb-15 shadow-box" 
   style={{
-    fontFamily: 'Cinzel', 
+    fontFamily:'Arial', 
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     padding: '20px', 
     borderRadius: '10px', 
@@ -151,7 +153,7 @@ const BlogThree = () => {
           <div 
   className="row align-items-center mb-15 shadow-box" 
   style={{
-    fontFamily: 'Cinzel', 
+    fontFamily:'Arial', 
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     padding: '20px', 
     borderRadius: '10px', 
@@ -182,7 +184,7 @@ const BlogThree = () => {
           <div 
   className="row align-items-center mb-15 shadow-box" 
   style={{
-    fontFamily: 'Cinzel', 
+    fontFamily:'Arial', 
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
     padding: '20px', 
     borderRadius: '10px', 

@@ -12,7 +12,7 @@ const Topbar = ({ bgColor = '#134B70', textColor = 'text-white' }) => {
       <div
         className="container py-1 d-flex flex-column flex-md-row align-items-center justify-content-between"
         style={{
-          fontFamily: 'Cinzel',
+          fontFamily:'Arial',
           color: '#083e62',
         }}
       >

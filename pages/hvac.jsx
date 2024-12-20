@@ -27,14 +27,14 @@ const ProjectDetails = () => {
     </header>
 
     <main className="content-wrapper">
-      <section className="wrapper bg-soft-primary " style={{fontFamily:'Cinzel'}}>
+      <section className="wrapper bg-soft-primary " style={{fontFamily:'Arial'}}>
         <div className="container pt-10 pb-19 pt-md-14 pb-md-22 text-center">
           <div className="row">
             <div className="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div className="post-header">
                
 
-                <h1 className="display-1 mb-5 hover" style={{fontFamily:'Cinzel', color:'#134B70'}}>HVAC SYSTEM</h1>
+                <h1 className="display-1 mb-5 hover" style={{fontFamily:'Arial', color:'#134B70'}}>HVAC SYSTEM</h1>
                 <div style={{ 
         borderBottom: "3px solid #134B70", /* Dark blue line */
         width: "100%", /* Adjust line width */
@@ -53,7 +53,7 @@ const ProjectDetails = () => {
       
 
 {/* Projects Section */}
-<section className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
+<section className="wrapper bg-light" style={{fontFamily:'Arial'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">

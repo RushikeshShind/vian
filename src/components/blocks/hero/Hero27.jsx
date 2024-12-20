@@ -11,7 +11,7 @@ const Hero27 = () => {
       height: '80%', // Ensure it covers the section
       width: '100%',
       position: 'absolute',
-      top: 90,
+      top: 95,
       left: 0,
       zIndex: -3 // Keep it behind other content
     }}></div>

@@ -34,7 +34,7 @@ const Career = () => {
     <div className="row">
       <div className="col-lg-8 mx-auto mb-1">
        
-        <h3 className="display-1 mb-15" style={{fontFamily:'Cinzel', fontSize:'100px'}}>Coming Soon...</h3>
+        <h3 className="display-1 mb-15" style={{fontFamily:'Arial', fontSize:'100px'}}>Coming Soon...</h3>
         <p className="lead text-muted mb-7">
         Contact our CEO directly on -
         </p>

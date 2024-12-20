@@ -40,7 +40,7 @@ const Projects = () => {
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Cinzel'}}>Design & Consultancy
+                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Arial'}}>Design & Consultancy
                   </h1>
                   <div style={{ borderBottom: "3px solidrgb(245, 251, 255)", /* Dark blue line */
         width: "100%", /* Adjust line width */
@@ -55,13 +55,13 @@ const Projects = () => {
         {
         /* ========== projects section ========== */
       }
-        <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
+        <section className="wrapper bg-light" style={{fontFamily:'Arial'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">
         <div className="projects-tiles">
         <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-4 text-center">
+              <h3 className="display-15 ls-sm mb-4 text-justify" style={{color:' #003366'}}>
                 <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
                 
               </h3>
@@ -85,7 +85,7 @@ const Projects = () => {
           {/* Repeat for Second Image and Content */}
           <div className="row align-items-center mb-15">
           <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-4 text-justify">
+              <h3 className="display-15 ls-sm mb-4 text-justify"style={{color:' #003366'}}>
                 <strong>What we offer:</strong> <br />
                 
               </h3>

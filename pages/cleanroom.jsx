@@ -33,15 +33,15 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="section-frame overflow-hidden" style={{fontFamily:'Cinzel'}}>
-          <div className="wrapper bg-gray">
+        <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" style={{fontFamily:'Arial' , backgroundImage: 'url(/img/photos/Clean-Room.png)'}}>
+          <div className="wrapper" >
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1" style={{fontFamily:'Cinzel'}}>Cleanroom Panels & Equipment
+                  <h1 className="display-1 mb-1" style={{fontFamily:'Arial', color:'white'}}>Cleanroom Panels & Equipment
                   </h1>
                   <div style={{ 
-        borderBottom: "3px solid #134B70", /* Dark blue line */
+        borderBottom: "3px solid rgb(255, 255, 255)", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>
@@ -54,7 +54,7 @@ const Projects = () => {
         {
         /* ========== projects section ========== */
       }
-        <section className="wrapper bg-light"style={{fontFamily:'Cinzel'}}>
+        <section className="wrapper bg-light"style={{fontFamily:'Arial'}}>
   <div className="container py-14 py-md-1">
     <div className="row mt-6">
       <div className="col-xl-10 mx-auto">
@@ -88,7 +88,7 @@ const Projects = () => {
           </div>
 
           {/* Repeat for Second Image and Content */}
-          <div className="row align-items-center mb-15"style={{fontFamily:'Cinzel'}}>
+          <div className="row align-items-center mb-15"style={{fontFamily:'Arial'}}>
             {/* Image Column */}
             <div className="col-md-6 order-md-2">
               <figure className="rounded">
@@ -100,7 +100,7 @@ const Projects = () => {
               </figure>
             </div>
             {/* Content Column */}
-            <div className="col-md-6 order-md-1"style={{fontFamily:'Cinzel'}}>
+            <div className="col-md-6 order-md-1"style={{fontFamily:'Arial'}}>
                     <h3 className="display-10 ls-sm mb-4 text-justify">
                       <strong style={{color:'#134B70'}}>Cleanroom Equipment Pressure: </strong> <br /></h3>
                       

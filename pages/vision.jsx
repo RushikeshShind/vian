@@ -25,7 +25,7 @@ const Projects = () => {
       {
       /* ========== header section ========== */
     }
-      <header className="wrapper bg-gray" style={{fontFamily:'Cinzel'}}>
+      <header className="wrapper bg-gray" style={{fontFamily:'Arial'}}>
         <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
       </header>
 
@@ -33,33 +33,38 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}} >
-        <div className="container py-14 py-md-1"style={{fontFamily:'Cinzel'}}>
+      <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" style={{
+        backgroundImage: 'url(/img/photos/bg3.jpg)'
+      }}>
+          <div className="wrapper" >
+            <div className="container py-13 py-md-17 text-center">
+              <div className="row">
+                <div className="col-lg-10 col-xxl-8 mx-auto">
+                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Arial'}}>OUR VISION
+                  </h1>
+                  <div style={{ borderBottom: "3px solidrgb(245, 251, 255)", /* Dark blue line */
+        width: "100%", /* Adjust line width */
+        margin: "1rem auto" /* Center and add spacing */
+      }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="wrapper bg-light" style={{fontFamily:'Arial'}} >
+        <div className="container py-14 py-md-1"style={{fontFamily:'Arial'}}>
           <div className="row mt-6">
             
             <div ><div className="col-xl-10 mx-auto">
               <div className=" display-1 projects-tiles text-center">
-              <h1 className="display-1 mb-3"  style={{ 
-    borderBottom: '1px solid #003366', 
-    paddingBottom: '10px',
-   fontFamily:'Cinzel'
-  }}> OUR VISION </h1></div>
+              </div>
                 {/* Image and Content Side-by-Side */}
                 <div className="row align-items-center mb-1">
                   {/* Image Column */}
                   
-                  <div className="col-md-6">
-                    <figure className="rounded">
-                      <img
-                        src="/img/photos/5899209.jpg"
-                        alt="Unidirectional Flow"
-                        style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
-                      />
-                    </figure>
-                  </div >
                   {/* Content Column */}
-                  <div className="col-md-6"style={{fontFamily:'Cinzel'}}>
-                    <h3 className="display-10 ls-sm mb-4 text-justify" style={{fontFamily:'Cinzel'}}>
+                  <div className="col-md-16"style={{fontFamily:'Arial'}}>
+                    <h3 className="display-6 ls-sm  text-center" style={{fontFamily:'Arial'}}>
                      
                     To be a leading global provider of innovative turnkey solutions, delivering projects that redefine excellence and inspire trust. We aim to set new benchmarks in quality, sustainability, and efficiency, transforming ideas into lasting legacies while empowering our clients to achieve their goals effortlessly.
                     </h3>

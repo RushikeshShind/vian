@@ -9,7 +9,7 @@ import footerNav from 'data/footer';
 
 const Footer18 = () => {
   return <footer style={{color:'#023469'}}>
-    <div className="container py-13 py-md-15 "style={{color:'#023469'}}>
+    <div className="container py-1 py-md-2"style={{color:'#023469'}}>
     
     <div className="d-lg-flex flex-row align-items-lg-center">
       

@@ -22,25 +22,28 @@ const BlogThree = () => {
       {
         /* ========== title section ========== */
       }
-      <section className="wrapper bg-gray" style={{fontFamily:'Cinzel'}}>
-        <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center" >
-          <div className="row">
-            <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
-              <h1 className="display-1 mb-3"  style={{ 
-    borderBottom: '1px solid #003366', 
-    paddingBottom: '5px' // Optional, for spacing between text and underline
-  }}> ABOUT US </h1>
-              <p className="lead px-lg-5 px-xxl-8">
-
-              </p>
+      <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" style={{
+        backgroundImage: 'url(/img/photos/bg3.jpg)'
+      }}>
+          <div className="wrapper" >
+            <div className="container py-13 py-md-17 text-center">
+              <div className="row">
+                <div className="col-lg-10 col-xxl-8 mx-auto">
+                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Arial'}}>About Us
+                  </h1>
+                  <div style={{ borderBottom: "3px solidrgb(245, 251, 255)", /* Dark blue line */
+        width: "100%", /* Adjust line width */
+        margin: "1rem auto" /* Center and add spacing */
+      }}></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
 
       {/* Projects Section */}
-      <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}}>
+      <section className="wrapper bg-light" style={{fontFamily:'Arial'}}>
         <div className="container py-14 py-md-1">
           <div className="row mt-6">
             <div className="col-xl-10 mx-auto">

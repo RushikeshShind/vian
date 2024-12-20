@@ -26,22 +26,22 @@ const Projects = () => {
             /* ========== header section ========== */
         }
         <header className="wrapper bg-gray" >
-            <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill"style={{fontFamily:'Cinzel'}} />} />
+            <Navbar language navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" style={{ fontFamily:'Arial' }} />} />
         </header>
 
-        <main className="content-wrapper">
+        <main className="content-wrapper" data-cues="slideInDown" data-group="page-title" data-interval="-200" data-delay="500">
             {
                 /* ========== title section ========== */
             }
 
             <h1 className="display-1 mb-3 text-center" style={{
                 borderBottom: '1px solid #003366',
-                paddingBottom: '10px' ,
-                fontFamily:'Cinzel'
+                paddingBottom: '10px',
+                fontFamily:'Arial'
             }}> Why
                 Should You
                 Choose Us?</h1>
-            <section
+                <section className="scroll-section" data-cues="slideInDown" data-group="page-title" data-interval="-200" data-delay="500"
                 style={{
                     display: "flex",
                     alignItems: "center",
@@ -56,7 +56,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -188,7 +188,7 @@ const Projects = () => {
             </section>
 
             {/*2nd */}
-            <section
+            <section data-cues="slideInDown" data-group="page-title" data-interval="-200" data-delay="500"
                 style={{
                     display: "flex",
                     alignItems: "center",
@@ -203,7 +203,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -352,7 +352,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -504,7 +504,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -657,7 +657,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -794,7 +794,7 @@ const Projects = () => {
             </section>
 
             {/*6th  */}
-            <section
+            <section 
                 style={{
                     display: "flex",
                     alignItems: "center",
@@ -809,7 +809,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -962,7 +962,7 @@ const Projects = () => {
             >
                 {/* Left Side */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                <div
+                    <div
                         style={{
                             position: "relative", // Enables positioning of the logo
                             backgroundColor: "#ffffff",
@@ -1156,8 +1156,8 @@ const Projects = () => {
 
                         {/* Card Content */}
                         <div>
-                        Turnkey
-                        Solutions 
+                            Turnkey
+                            Solutions
                         </div>
                     </div>
 
