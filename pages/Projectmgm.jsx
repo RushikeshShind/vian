@@ -23,13 +23,13 @@ const BlogThree = () => {
         /* ========== title section ========== */
       }
       <section className="wrapper bg-gray">
-        <div className="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
+        <div className="container pt- pb-12 pt-md-14 pb-md-16 text-center"  style={{backgroundColor:'#134B70'}}>
           <div className="row">
             <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
-              <h1 className="display-1 mb-1" style={{fontFamily:'Cinzel',color:'#134B70'}}> PROJECT MANAGEMENT </h1>
+              <h1 className="display-1 mb-1" style={{fontFamily:'Cinzel',color:'white'}}> PROJECT MANAGEMENT </h1>
               <p className="lead px-lg-5 px-xxl-8">
               <div style={{ 
-        borderBottom: "3px solid #134B70", /* Dark blue line */
+        borderBottom: "3px solid white", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>
@@ -51,28 +51,52 @@ const BlogThree = () => {
         <h4 className='display-1 text-center mb-15'>Project Management</h4>
         <div className="projects-tiles">
           {/* Monitoring and Controlling Section */}
-          <div className="row align-items-center mb-15" style={{fontFamily:'Cinzel'}}>
-            
-            {/* Left Column for Number */}
-            <div className="col-md-4 text-center">
-              <h1 className="display-4 fw-bold text-muted" style={{ fontSize: "7rem", marginBottom: "0" }}>
-                01
-              </h1>
-            </div>
-            {/* Right Column for Content */}
-            <div className="col-md-8" style={{fontFamily:'Cinzel'}}>
-              <h2 className="display-5   mb-2" style={{color:'#083e62'}}>PROJECT INITIATION</h2>
-              <ul className="display-6 ">
-                <li>Clarify the purpose, scope, and objectives
-                of the project.</li>
-                <li>Identify and engage key stakeholders.</li>
-                <li>Develop the Project Charter to formalize
-                the project.</li>
-              </ul>
-            </div>
-          </div>
+          <div 
+  className="row align-items-center mb-15 shadow-box" 
+  style={{
+    fontFamily: 'Cinzel', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
+    padding: '20px', 
+    borderRadius: '10px', 
+    backgroundColor: '#fff'
+  }}
+>
+  {/* Left Column for Number */}
+  <div className="col-md-4 text-center">
+    <h1 
+      className="display-4 fw-bold text-muted" 
+      style={{ fontSize: "7rem", marginBottom: "0" }}
+    >
+      01
+    </h1>
+  </div>
+  {/* Right Column for Content */}
+  <div className="col-md-8">
+    <h2 
+      className="display-5 mb-2" 
+      style={{ color: '#083e62' }}
+    >
+      PROJECT INITIATION
+    </h2>
+    <ul className="display-6">
+      <li>Clarify the purpose, scope, and objectives of the project.</li>
+      <li>Identify and engage key stakeholders.</li>
+      <li>Develop the Project Charter to formalize the project.</li>
+    </ul>
+  </div>
+</div>
 
-          <div className="row align-items-center mb-15" style={{fontFamily:'Cinzel'}}>
+
+<div 
+  className="row align-items-center mb-15 shadow-box" 
+  style={{
+    fontFamily: 'Cinzel', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
+    padding: '20px', 
+    borderRadius: '10px', 
+    backgroundColor: '#fff'
+  }}
+>
             {/* Left Column for Number */}
             <div className="col-md-4 text-center">
               <h1 className="display-4 fw-bold text-muted" style={{ fontSize: "7rem", marginBottom: "0" }}>
@@ -93,7 +117,16 @@ const BlogThree = () => {
             </div>
           </div>
 
-          <div className="row align-items-center mb-15" style={{fontFamily:'Cinzel'}}>
+          <div 
+  className="row align-items-center mb-15 shadow-box" 
+  style={{
+    fontFamily: 'Cinzel', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
+    padding: '20px', 
+    borderRadius: '10px', 
+    backgroundColor: '#fff'
+  }}
+>
             {/* Left Column for Number */}
             <div className="col-md-4 text-center">
               <h1 className="display-4 fw-bold text-muted" style={{ fontSize: "7rem", marginBottom: "0" }}>
@@ -115,7 +148,16 @@ const BlogThree = () => {
           </div>
 
 
-          <div className="row align-items-center mb-15" style={{fontFamily:'Cinzel'}}>
+          <div 
+  className="row align-items-center mb-15 shadow-box" 
+  style={{
+    fontFamily: 'Cinzel', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
+    padding: '20px', 
+    borderRadius: '10px', 
+    backgroundColor: '#fff'
+  }}
+>
             {/* Left Column for Number */}
             <div className="col-md-4 text-center">
               <h1 className="display-4 fw-bold text-muted" style={{ fontSize: "7rem", marginBottom: "0" }}>
@@ -137,7 +179,16 @@ const BlogThree = () => {
             </div>
           </div>
           
-          <div className="row align-items-center mb-15" style={{fontFamily:'Cinzel'}}>
+          <div 
+  className="row align-items-center mb-15 shadow-box" 
+  style={{
+    fontFamily: 'Cinzel', 
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', 
+    padding: '20px', 
+    borderRadius: '10px', 
+    backgroundColor: '#fff'
+  }}
+>
             {/* Left Column for Number */}
             <div className="col-md-4 text-center">
               <h1 className="display-4 fw-bold text-muted" style={{ fontSize: "7rem", marginBottom: "0" }}>

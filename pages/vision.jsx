@@ -36,13 +36,14 @@ const Projects = () => {
         <section className="wrapper bg-light" style={{fontFamily:'Cinzel'}} >
         <div className="container py-14 py-md-1"style={{fontFamily:'Cinzel'}}>
           <div className="row mt-6">
-            <div className="col-xl-10 mx-auto">
+            
+            <div ><div className="col-xl-10 mx-auto">
               <div className=" display-1 projects-tiles text-center">
               <h1 className="display-1 mb-3"  style={{ 
     borderBottom: '1px solid #003366', 
     paddingBottom: '10px',
    fontFamily:'Cinzel'
-  }}> OUR VISION </h1>
+  }}> OUR VISION </h1></div>
                 {/* Image and Content Side-by-Side */}
                 <div className="row align-items-center mb-1">
                   {/* Image Column */}

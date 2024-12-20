@@ -71,10 +71,15 @@ const Contact = () => {
                             </div>
                           </div>
                           <div className="align-self-start justify-content-start">
-                            <h5 className="mb-1"> Corporate Address :</h5>
+                            <h5 className="mb-1">   Works :</h5>
                             <address>
-                           
-                            D wing 2146/2147, Oberoi Garden Estate, Chandivli Farm Road, Chandivli, Mumbai – 400072, Maharashtra India. 
+                            Plot No 18, Mira Co-op. , Industrial Estate, Opp Amar Palace Hotel, Kashimira, Mira Road (E), Dist Thane – 401107.
+                            <br /> 
+                            <strong>Corporate Address :</strong>
+                            <p>D wing 2146/2147, Oberoi Garden Estate, Chandivli Farm Road, Chandivli, Mumbai – 400072, Maharashtra India.</p>
+                            
+                            <strong>Overseas Branch:</strong>
+                            <p>VIAN Turnkey Projects FZCO, Premises no. - 50956 - 001, IFZA Business park, DDP, Dubai,UAE.</p>
                             </address>
                           </div>
                         </div>
@@ -88,7 +93,7 @@ const Contact = () => {
                           <div>
                             <h5 className="mb-1">Phone</h5>
                             <p>
-                            +91 9967578862
+                            +91 9967578862 / +971586921920
                              <br />
                              
                             </p>

@@ -3,7 +3,6 @@ import { Fragment } from 'react'; // -------- custom component -------- //
 import { FAQ7 } from 'components/blocks/faq';
 import { Blog7 } from 'components/blocks/blog';
 import { Hero27 } from 'components/blocks/hero';
-import { Facts17 } from 'components/blocks/facts';
 import { About28 } from 'components/blocks/about';
 import { Navbar } from 'components/blocks/navbar';
 import { Footer18 } from 'components/blocks/footer';

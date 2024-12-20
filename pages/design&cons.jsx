@@ -33,15 +33,16 @@ const Projects = () => {
         {
         /* ========== title section ========== */
       }
-        <section className="section-frame overflow-hidden"style={{fontFamily:'Cinzel'}}>
-          <div className="wrapper bg-gray">
+        <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white" style={{
+        backgroundImage: 'url(/img/photos/bg3.jpg)'
+      }}>
+          <div className="wrapper" >
             <div className="container py-13 py-md-17 text-center">
               <div className="row">
                 <div className="col-lg-10 col-xxl-8 mx-auto">
-                  <h1 className="display-1 mb-1" style={{color:'#134B70', fontFamily:'Cinzel'}}>Design & Consultancy
+                  <h1 className="display-1 mb-1" style={{color:'white', fontFamily:'Cinzel'}}>Design & Consultancy
                   </h1>
-                  <div style={{ 
-        borderBottom: "3px solid #134B70", /* Dark blue line */
+                  <div style={{ borderBottom: "3px solidrgb(245, 251, 255)", /* Dark blue line */
         width: "100%", /* Adjust line width */
         margin: "1rem auto" /* Center and add spacing */
       }}></div>
@@ -60,7 +61,7 @@ const Projects = () => {
       <div className="col-xl-10 mx-auto">
         <div className="projects-tiles">
         <div className="col-md-6">
-              <h3 className="display-15 ls-sm mb-4 text-justify">
+              <h3 className="display-15 ls-sm mb-4 text-center">
                 <strong>Unidirectional Flow (Laminar Air Flow):</strong> <br />
                 
               </h3>

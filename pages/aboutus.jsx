@@ -50,13 +50,7 @@ const BlogThree = () => {
                   {/* Image Column */}
                   
                   <div className="col-md-6">
-                    <figure className="rounded">
-                      <img
-                        src="/img/photos/18787.jpg"
-                        alt="Unidirectional Flow"
-                        style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
-                      />
-                    </figure>
+                  <img src="img/vian.png" alt="" />
                   </div>
                   {/* Content Column */}
                   <div className="col-md-6">
@@ -71,16 +65,10 @@ const BlogThree = () => {
                 <div className="row align-items-center mb-1">
                   {/* Image Column */}
                   <div className="col-md-6 order-md-2">
-                    <figure className="rounded">
-                      <img
-                        src="/img/photos/8678846.jpg"
-                        alt="Clean Room Example"
-                        style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
-                      />
-                    </figure>
+                  
                   </div>
                   {/* Content Column */}
-                  <div className="col-md-6 order-md-1">
+                  <div className="col-md-6 order-md-1" >
                     <h3 className="display-15 ls-sm mb-2 text-justify">
                       
                       <p>Our commitment to excellence, innovation, and seamless project management sets us apart. Whether it's construction, infrastructure, or specialized installations, we handle every aspect with precision, giving you the peace of mind to focus on what matters most—your core business. Partner with us and experience the ease of a true turnkey approach, where we take care of everything, so you don’t have to.

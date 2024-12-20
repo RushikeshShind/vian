@@ -287,7 +287,6 @@ const projectsNavigation = [{
     id: 1,
     title: 'About VIAN',
     url: '/aboutus',
-    style: { color: 'white' }
   }, {
     id: 2,
     title: 'Our Vision',

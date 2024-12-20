@@ -29,114 +29,73 @@ const Career = () => {
         {
         /* ========== page title section ========== */
       }
-        <section className="wrapper bg-soft-primary">
-          <div className="container pt-10 pb-18 pb-md-20 pt-md-14 pb-lg-21 text-center">
-            <div className="row">
-              <div className="col-lg-8 mx-auto mb-11">
-                <h1 className="fs-15 text-uppercase text-primary mb-20"></h1>
-                <h3 className="display-1 ">Comming Soon....</h3>
-              </div>
-            </div>
-          </div>
-        </section>
+       <section className="wrapper bg-soft-primary">
+  <div className="container pt-10 pb-18 pb-md-20 pt-md-13 pb-lg-21 text-center">
+    <div className="row">
+      <div className="col-lg-8 mx-auto mb-1">
+       
+        <h3 className="display-1 mb-15" style={{fontFamily:'Cinzel', fontSize:'100px'}}>Coming Soon...</h3>
+        <p className="lead text-muted mb-7">
+        Contact our CEO directly on -
+        </p>
+        {/* Countdown Timer */}
+        
+        {/* Subscription Form */}
+        <div className="input-group w-15 mx-auto">
+          <a
+          href="https://www.linkedin.com/in/vinit-chauhan-91217362/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mb-1 mb-md-0 me-md-3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="px"
+            width="50"
+            height="50"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#0288D1"
+              d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+            ></path>
+            <path
+              fill="#FFF"
+              d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+            ></path>
+          </svg>
+          
+        </a>
+        
+          <a href="Vinit.Chauhan@my-vian.com">
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="50"
+  height="50"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="feather feather-mail"
+>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+  <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
 
-        {
-        /* ========== features section ========== */
-      }
-        {/* <section className="wrapper bg-light">
-          <div className="container pb-23 pb-md-25">
-            <div className="row mb-14">
-              <div className="col-12 mt-n18 mt-md-n20 mt-lg-n21 position-relative">
-                <div className="shape bg-dot red rellax w-16 h-18" style={{
-                top: '1rem',
-                left: '-3.2rem'
-              }} />
-                <div className="shape pale-primary w-19 h-19 rellax" style={{
-                bottom: '2rem',
-                right: '-3rem'
-              }}>
-                  <svg viewBox="0 0 500 549.53" xmlns="http://www.w3.org/2000/svg" className="svg-inject icon-svg w-100 h-100">
-                    <path className="svg-fill" d="M250 549.39c-15.51 0-30.05-3.46-40.94-9.75l-168-97C18.5 429.63.14 397.82.14 371.75v-194c0-26.07 18.36-57.88 40.94-70.91l168-97C220 3.6 234.49.14 250 .14s30.05 3.46 40.94 9.75l168 97c22.58 13 40.94 44.84 40.94 70.91v194c0 26.07-18.36 57.88-40.94 70.91l-168 97c-10.89 6.22-25.43 9.68-40.94 9.68z" />
-                  </svg>
-                </div>
+          </a>
+        
+        </div> 
+      </div>
+    </div>
+  </div>
+ 
+</section>
 
-                <figure className="rounded">
-                  <img src="/img/photos/about18.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
-                </figure>
-              </div>
-            </div>
 
-            <div className="row gx-lg-8 gx-xl-12 gy-8">
-              {data.facilities.map(({
-              Icon,
-              id,
-              ...item
-            }) => <div className="col-md-6 col-lg-4" key={id}>
-                  <ServiceCard3 {...item} Icon={<Icon className="icon-svg-sm solid-mono text-primary me-4" />} />
-                </div>)}
-            </div>
-
-            <div className="text-center mt-10">
-              <NextLink title="Join Our Team" href="#" className="btn btn-primary rounded-pill" />
-            </div>
-          </div>
-        </section> */}
-
-        {
-        /* ========== team section ========== */
-      }
-        {/* <section className="wrapper bg-soft-primary">
-          <div className="container py-14 py-md-17">
-            <div className="row mt-md-n25 position-relative">
-              <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-                <h1 className="fs-15 text-uppercase text-primary mb-3">Happy Team</h1>
-                <h3 className="display-4 mb-10 px-xl-10 px-xxl-15">
-                  Dont take our word for it. See what our team members say about us.
-                </h3>
-              </div>
-            </div>
-
-            <div className="grid">
-              <div className="row isotope gy-6">
-                {data.testimonialList.map(item => <div className="item col-md-6 col-xl-4" key={item.id}>
-                    <TestimonialCard3 {...item} />
-                  </div>)}
-              </div>
-            </div>
-          </div>
-        </section> */}
-
-        {
-        /* ========== job position section ========== */
-      }
-        {/* <section className="wrapper bg-light">
-          <div className="container py-14 py-md-16">
-            <div className="row text-center">
-              <div className="col-xl-10 mx-auto">
-                <h1 className="fs-15 text-uppercase text-primary mb-3">Job Positions</h1>
-                <h3 className="display-4 mb-10 px-xxl-15">
-                  We’re always searching for amazing people to join our team. Take a look at our current openings.
-                </h3>
-              </div>
-            </div>
-
-            <div className="row gy-6">
-              {data.jobList.map(item => <JobPostCard1 {...item} key={item.id} />)}
-            </div>
-
-            <div className="row mt-11">
-              <div className="col-lg-6 col-xl-5 mx-auto text-center">
-                <h2 className="display-6 mb-3">Can&apos;t find the right position?</h2>
-                <p className="lead mb-5 px-md-16 px-lg-3">
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur.
-                </p>
-
-                <NextLink title="Get in Touch" href="#" className="btn btn-primary rounded-pill" />
-              </div>
-            </div>
-          </div>
-        </section> */}
-
+    
         {
         /* ========== faq section ========== */
       }

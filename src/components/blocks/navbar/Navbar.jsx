@@ -35,7 +35,7 @@ const Navbar = props => {
     logoAlt
   } = props;
   useNestedDropdown();
-  const sticky = useSticky(200);
+  const sticky = useSticky(300);
   const navbarRef = useRef(null); // dynamically render the logo
 
   const logo = sticky ? 'vian 1' : logoAlt ?? 'vian 1'; // dynamically added navbar classname
@@ -48,42 +48,55 @@ const Navbar = props => {
 
 
   const headerContent = <Fragment>
-      <div className="navbar-brand " style={{fontFamily:'Cinzel'}}>
-        <NextLink href="#" title={<img alt="logo" src={`/img/${logo}.png`} style={{ width: '120px', height: '100px' }}  />} />
-      </div>
+    <div className="navbar-brand" style={{ fontFamily: 'Cinzel' }}>
+  <NextLink href="/" title={
+    <img 
+      alt="logo" 
+      src={`/img/vian.png`} 
+      style={{ 
+        width: '100px', 
+        height: '50px', 
+        maxWidth: '100%', 
+        height: 'auto' 
+      }} 
+    />
+  } />
+</div>
+
+
+
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white   q fs-30 mb-0">Vian</h3>
+          <h3 className="text-white    fs-20 mb-1">Vian</h3>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="btn-close btn-close-blue" />
         </div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100"style={{fontFamily:'Cinzel'}}>
-          <ul className="navbar-nav">
-            
-
-            {
-            /*  ===================== pages nav item  ===================== */
-          }
-            
+        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-90"style={{fontFamily:'Cinzel'}}>
+          <ul className="navbar-nav">  
 
             {
             /* ===================== projects nav item  ===================== */
           }
-            <li className="nav-item dropdown" style={{fontFamily:'Cinzel', color:'white'}}>
-              <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle"  style={{fontFamily:'Cinzel'}}/>
+            <li className="nav-item dropdown" style={{ fontFamily: 'Cinzel' }}>
+              <DropdownToggleLink title="About Us" className="nav-link dropdown-toggle"  style={{fontFamily:'Cinzel'}} />
 
-              <div className="dropdown-menu dropdown-lg" style={{fontFamily:'Cinzel', color:'white'}}>
-                <div className="dropdown-lg-content"style={{color:'white'}}>
-                  {projectsNavigation.map(({
-                  title,
-                  children
-                }, i) => <div key={title + i}>
-                      <h6 className="dropdown-header"style={{color:'white'}}>{title}</h6>
-                      <ul className="list-unstyled"style={{color:'white'}}>{renderLinks(children)}</ul>
-                    </div>)}
-                </div>
-              </div>
+              <ul className="dropdown-menu" style={{ fontFamily: 'Cinzel' }}>
+    {/* About Us */}
+    <li>
+      <ListItemLink href="/aboutus" title="About Us" linkClassName="dropdown-item" />
+    </li> 
+    <li>
+      <ListItemLink href="/mission" title="Our Mission" linkClassName="dropdown-item" />
+    </li> 
+    <li>
+      <ListItemLink href="/vision" title="Our Vision" linkClassName="dropdown-item" />
+    </li> 
+    <li>
+      <ListItemLink href="/whychoosevian" title="Why choose VIAN" linkClassName="dropdown-item" />
+    </li> 
+    </ul>
+
             </li>
 
             {
@@ -216,7 +229,7 @@ const Navbar = props => {
           {
           /* ============= language dropdwown ============= */
         }
-          {/* {language && <Language />} */}
+           {language && <Language />}
 
           {
           /* ============= info button ============= */
@@ -315,7 +328,7 @@ Navbar.defaultProps = {
   search: false,
   language: false,
   stickyBox: true,
-  navOtherClass: 'navbar-other w-100 d-flex ms-auto',
+  navOtherClass: 'navbar-other w-10 d-flex ms-auto',
   navClassName: 'navbar navbar-expand-lg center-nav transparent navbar-light'
 };
 export default Navbar;
